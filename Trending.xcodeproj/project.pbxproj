@@ -13,6 +13,10 @@
 		FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */; };
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
 		FAB993C1257B5DC1008D2EE6 /* TrendingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993C0257B5DC1008D2EE6 /* TrendingUITests.swift */; };
+		FAB993D4257B5F4C008D2EE6 /* TrendingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */; };
+		FAB993D9257B5F7F008D2EE6 /* TrendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993D8257B5F7F008D2EE6 /* TrendRow.swift */; };
+		FAB993DE257B5FDB008D2EE6 /* TrendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993DD257B5FDB008D2EE6 /* TrendList.swift */; };
+		FAB993E3257B6500008D2EE6 /* TrendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993E2257B6500008D2EE6 /* TrendDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		FAB993BC257B5DC1008D2EE6 /* TrendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB993C0257B5DC1008D2EE6 /* TrendingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingUITests.swift; sourceTree = "<group>"; };
 		FAB993C2257B5DC1008D2EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingClient.swift; sourceTree = "<group>"; };
+		FAB993D8257B5F7F008D2EE6 /* TrendRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendRow.swift; sourceTree = "<group>"; };
+		FAB993DD257B5FDB008D2EE6 /* TrendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendList.swift; sourceTree = "<group>"; };
+		FAB993E2257B6500008D2EE6 /* TrendDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,9 @@
 		FAB993A2257B5DBE008D2EE6 /* Trending */ = {
 			isa = PBXGroup;
 			children = (
+				FAB993E7257B6902008D2EE6 /* Observable */,
+				FAB993D2257B5F31008D2EE6 /* Client */,
+				FAB993D1257B5F2D008D2EE6 /* View */,
 				FAB993A3257B5DBE008D2EE6 /* TrendingApp.swift */,
 				FAB993A5257B5DBE008D2EE6 /* ContentView.swift */,
 				FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */,
@@ -128,6 +139,31 @@
 				FAB993C2257B5DC1008D2EE6 /* Info.plist */,
 			);
 			path = TrendingUITests;
+			sourceTree = "<group>";
+		};
+		FAB993D1257B5F2D008D2EE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB993D8257B5F7F008D2EE6 /* TrendRow.swift */,
+				FAB993DD257B5FDB008D2EE6 /* TrendList.swift */,
+				FAB993E2257B6500008D2EE6 /* TrendDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAB993D2257B5F31008D2EE6 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		FAB993E7257B6902008D2EE6 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB993DE257B5FDB008D2EE6 /* TrendList.swift in Sources */,
 				FAB993A6257B5DBE008D2EE6 /* ContentView.swift in Sources */,
+				FAB993D4257B5F4C008D2EE6 /* TrendingClient.swift in Sources */,
+				FAB993D9257B5F7F008D2EE6 /* TrendRow.swift in Sources */,
+				FAB993E3257B6500008D2EE6 /* TrendDetail.swift in Sources */,
 				FAB993A4257B5DBE008D2EE6 /* TrendingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
