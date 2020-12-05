@@ -20,7 +20,7 @@ struct TrendList: View {
     
     var body: some View {
         List(topTrends.trends) { trend  in
-            NavigationLink(destination: TrendDetail(trend: trend)) {
+            NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend))) {
                 TrendRow(model: trend)
             }
             
