@@ -44,20 +44,18 @@ enum NetworkError: Error {
 
 struct TrendingClient: ServiceType {
 
-    let network: NetworkClient
+    let network: RouterClient
     
     static func make(_ resolver: Resolver) -> TrendingClient {
         return TrendingClient(network: resolver.resolve(RouterClient.self)!)
     }
     
     func getTop() -> Future<[TrendItem],Error> {
-        let url = URL(string: "http://localhost:7000/trend/top")!
-        return network.get(url: url)
+        return network.route(named: "top_trends")
     }
     
     func getDetails(id: UUID) -> Future<TrendDetails, Error> {
-        let url = URL(string: "http://localhost:7000/trend/id/\(id)")!
-        return network.get(url: url)
+        return network.route(named: "trend_details_id", pathSubstitutions: ["id":id.uuidString])
     }
     
 }

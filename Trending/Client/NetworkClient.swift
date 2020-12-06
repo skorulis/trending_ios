@@ -18,10 +18,10 @@ class NetworkClient {
         self.session = URLSession(configuration: .default)
     }
     
-    func get<ResultType>(url: URL) -> Future<ResultType, Error> where ResultType: Decodable {
-        print("Get \(url)")
+    func execute<ResultType>(request: URLRequest) -> Future<ResultType, Error> where ResultType: Decodable {
+        print("\(request.httpMethod ?? "GET") \(request.url!)")
         return Future<ResultType,Error> { (promise) in
-            self.session.dataTaskPublisher(for: url).tryMap { (data, response) -> Data in
+            self.session.dataTaskPublisher(for: request).tryMap { (data, response) -> Data in
                 if let statusCode = (response as? HTTPURLResponse)?.statusCode, statusCode >= 400 {
                     throw NetworkError.serverError
                 }
@@ -39,6 +39,12 @@ class NetworkClient {
                 promise(.success(items))
             }.store(in: &self.subscibers)
         }
+    }
+    
+    func get<ResultType>(url: URL) -> Future<ResultType, Error> where ResultType: Decodable {
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
+        return execute(request: request)
     }
     
 }

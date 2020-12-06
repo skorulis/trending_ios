@@ -31,8 +31,8 @@ class Servicelocator: ObservableObject {
     
     init() {
         container.register(NetworkClient.self) { (resolver) -> NetworkClient in
-            return RouterClient(baseURL: "http://localhost:7000")
-        }.implements(RouterClient.self)
+            return RouterClient(baseURL: "http://localhost:7000/")
+        }.implements(RouterClient.self).inObjectScope(.container)
         container.register(BasicClient.self)
         container.register(TrendingClient.self)
         

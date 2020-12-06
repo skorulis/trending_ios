@@ -19,7 +19,12 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            Text("Loading \(routerClient.routesLoaded ? "YES" : "NO")")
+            
+            if routerClient.routesLoaded {
+                TrendList(locator: self.locator)
+            } else {
+                Text("Loading routes \(routerClient.routesLoaded ? "YES" : "NO" )")
+            }
             
         }
         
