@@ -56,9 +56,11 @@ struct TrendList: View {
     @ObservedObject private var viewModel: TrendListViewModel
     
     private let locator: Servicelocator
+    private let place: Place?
     
-    init(locator: Servicelocator) {
+    init(place: Place? = nil,  locator: Servicelocator) {
         self.locator = locator
+        self.place = place
         viewModel = TrendListViewModel(client: locator.resolve()!)
     }
     
@@ -72,7 +74,12 @@ struct TrendList: View {
     }
     
     var body: some View {
-        List {
+        var title = "Trends"
+        if let place = self.place {
+            title = "\(place.name)"
+        }
+        
+        return List {
             Section(header: header) {
                 ForEach(viewModel.trends, id: \.self) { trend in
                     return NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, seconds: viewModel.seconds, locator: locator))) {
@@ -81,7 +88,7 @@ struct TrendList: View {
                 }
             }
         }
-        .navigationBarTitle("Trends")
+        .navigationBarTitle(title)
     }
 }
 

@@ -18,16 +18,21 @@ struct ContentView: View {
     }
     
     var body: some View {
-        NavigationView {
-            
-            if routerClient.routesLoaded {
-                TrendList(locator: self.locator)
-            } else {
-                Text("Loading routes \(routerClient.routesLoaded ? "YES" : "NO" )")
+        if routerClient.routesLoaded {
+            TabView {
+                NavigationView {
+                    TrendList(locator: self.locator)
+                }.tabItem { Text("Trends") }
+                NavigationView {
+                    PlaceListView(locator: self.locator)
+                }.tabItem { Text("Places") }
+                
+                    
             }
             
+        } else {
+            Text("Loading routes \(routerClient.routesLoaded ? "YES" : "NO" )")
         }
-        
     }
 }
 

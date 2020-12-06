@@ -24,6 +24,10 @@ struct IdItem: Decodable, Identifiable {
     let id: UUID
 }
 
+struct OptionnalIdItem: Decodable {
+    let id: UUID?
+}
+
 struct TwitterDataPoint: Decodable, Identifiable {
     let id: UUID
     let value: Int64
@@ -42,6 +46,13 @@ enum NetworkError: Error {
     case serverError
 }
 
+struct Place: Decodable, Identifiable {
+    let woeid: Int
+    let id: UUID
+    let name: String
+    let country: OptionnalIdItem?
+}
+
 struct TrendingClient: ServiceType {
 
     let network: RouterClient
@@ -58,6 +69,10 @@ struct TrendingClient: ServiceType {
     func getDetails(id: UUID, seconds: TimeInterval) -> Future<TrendDetails, Error> {
         let queryParams = ["seconds":"\(seconds)"]
         return network.route(named: "trend_details_id", pathSubstitutions: ["id":id.uuidString], querySubstitutions: queryParams)
+    }
+    
+    func getPlaces() -> Future<[Place], Error> {
+        return network.route(named: "places")
     }
     
 }
