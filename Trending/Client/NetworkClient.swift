@@ -9,14 +9,10 @@ import Foundation
 import Combine
 import Swinject
 
-final class NetworkClient: ServiceType {
-    
-    static func make(_ resolver: Resolver) -> NetworkClient {
-        return NetworkClient()
-    }
+class NetworkClient {
     
     private let session: URLSession
-    private var subscibers: Set<AnyCancellable> = []
+    var subscibers: Set<AnyCancellable> = []
     
     init() {
         self.session = URLSession(configuration: .default)

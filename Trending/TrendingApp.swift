@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct TrendingApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView().environmentObject(Servicelocator())
+        let services = Servicelocator()
+        services.resolve(RouterClient.self)?.loadRoutes()
+        return WindowGroup {
+            ContentView(locator: services).environmentObject(services)
         }
     }
 }

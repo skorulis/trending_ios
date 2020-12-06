@@ -19,7 +19,7 @@ struct TrendRow: View {
 
 struct TrendRow_Previews: PreviewProvider {
     static var previews: some View {
-        TrendRow(model: TrendItem(id: UUID(), key: "TEST", display: "Disp", value: 1))
+        TrendRow(model: TrendItem(id: UUID(), key: "TEST", display: "Display item", value: 1))
     }
 }
 

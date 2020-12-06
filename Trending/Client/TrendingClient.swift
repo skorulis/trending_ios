@@ -47,7 +47,7 @@ struct TrendingClient: ServiceType {
     let network: NetworkClient
     
     static func make(_ resolver: Resolver) -> TrendingClient {
-        return TrendingClient(network: resolver.resolve(NetworkClient.self)!)
+        return TrendingClient(network: resolver.resolve(RouterClient.self)!)
     }
     
     func getTop() -> Future<[TrendItem],Error> {

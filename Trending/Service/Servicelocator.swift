@@ -30,7 +30,10 @@ class Servicelocator: ObservableObject {
     let container: Container = Container()
     
     init() {
-        container.register(NetworkClient.self)
+        container.register(NetworkClient.self) { (resolver) -> NetworkClient in
+            return RouterClient(baseURL: "http://localhost:7000")
+        }.implements(RouterClient.self)
+        container.register(BasicClient.self)
         container.register(TrendingClient.self)
         
         //Observables

@@ -9,11 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @EnvironmentObject var locator: Servicelocator
+    private let locator: Servicelocator
+    @ObservedObject var routerClient: RouterClient
+    
+    init(locator: Servicelocator) {
+        self.locator = locator
+        routerClient = locator.resolve()!
+    }
     
     var body: some View {
         NavigationView {
-            TrendList(locator: self.locator)
+            Text("Loading \(routerClient.routesLoaded ? "YES" : "NO")")
+            
         }
         
     }
@@ -21,6 +28,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(locator: Servicelocator())
     }
 }

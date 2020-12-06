@@ -24,6 +24,8 @@
 		FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */; };
 		FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */; };
 		FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */; };
+		FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99431257C78DD008D2EE6 /* RouterClient.swift */; };
+		FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99436257C78EC008D2EE6 /* BasicClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 		FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicelocator.swift; sourceTree = "<group>"; };
+		FAB99431257C78DD008D2EE6 /* RouterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterClient.swift; sourceTree = "<group>"; };
+		FAB99436257C78EC008D2EE6 /* BasicClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 			children = (
 				FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */,
 				FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */,
+				FAB99431257C78DD008D2EE6 /* RouterClient.swift */,
+				FAB99436257C78EC008D2EE6 /* BasicClient.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -476,6 +482,8 @@
 				FAB993D4257B5F4C008D2EE6 /* TrendingClient.swift in Sources */,
 				FAB993D9257B5F7F008D2EE6 /* TrendRow.swift in Sources */,
 				FAB993A4257B5DBE008D2EE6 /* TrendingApp.swift in Sources */,
+				FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */,
+				FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */,
 				FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */,
 				FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */,
 				FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */,

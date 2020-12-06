@@ -30,7 +30,6 @@ struct TrendList: View {
             NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, locator: locator))) {
                 TrendRow(model: trend)
             }
-            
         }
         .navigationBarTitle("Trends")
     }
