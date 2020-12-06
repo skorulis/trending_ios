@@ -17,8 +17,6 @@
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
 		FAB993C1257B5DC1008D2EE6 /* TrendingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993C0257B5DC1008D2EE6 /* TrendingUITests.swift */; };
 		FAB993D4257B5F4C008D2EE6 /* TrendingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */; };
-		FAB993D9257B5F7F008D2EE6 /* TrendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993D8257B5F7F008D2EE6 /* TrendRow.swift */; };
-		FAB993DE257B5FDB008D2EE6 /* TrendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993DD257B5FDB008D2EE6 /* TrendList.swift */; };
 		FAB99403257B8837008D2EE6 /* TrendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99402257B8837008D2EE6 /* TrendDetail.swift */; };
 		FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9940A257B884D008D2EE6 /* TrendChartView.swift */; };
 		FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */; };
@@ -26,6 +24,8 @@
 		FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */; };
 		FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99431257C78DD008D2EE6 /* RouterClient.swift */; };
 		FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99436257C78EC008D2EE6 /* BasicClient.swift */; };
+		FAFAEDD3257CBCA700B53DDC /* TrendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAEDD1257CBCA700B53DDC /* TrendList.swift */; };
+		FAFAEDD4257CBCA700B53DDC /* TrendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAEDD2257CBCA700B53DDC /* TrendRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +68,6 @@
 		FAB993C0257B5DC1008D2EE6 /* TrendingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingUITests.swift; sourceTree = "<group>"; };
 		FAB993C2257B5DC1008D2EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingClient.swift; sourceTree = "<group>"; };
-		FAB993D8257B5F7F008D2EE6 /* TrendRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendRow.swift; sourceTree = "<group>"; };
-		FAB993DD257B5FDB008D2EE6 /* TrendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendList.swift; sourceTree = "<group>"; };
 		FAB99402257B8837008D2EE6 /* TrendDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendDetail.swift; sourceTree = "<group>"; };
 		FAB9940A257B884D008D2EE6 /* TrendChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChartView.swift; sourceTree = "<group>"; };
 		FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
@@ -77,6 +75,8 @@
 		FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicelocator.swift; sourceTree = "<group>"; };
 		FAB99431257C78DD008D2EE6 /* RouterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterClient.swift; sourceTree = "<group>"; };
 		FAB99436257C78EC008D2EE6 /* BasicClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicClient.swift; sourceTree = "<group>"; };
+		FAFAEDD1257CBCA700B53DDC /* TrendList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendList.swift; sourceTree = "<group>"; };
+		FAFAEDD2257CBCA700B53DDC /* TrendRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,9 +197,8 @@
 		FAB993D1257B5F2D008D2EE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FAFAEDD0257CBCA700B53DDC /* List */,
 				FAB99401257B8837008D2EE6 /* Detail */,
-				FAB993D8257B5F7F008D2EE6 /* TrendRow.swift */,
-				FAB993DD257B5FDB008D2EE6 /* TrendList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +237,15 @@
 				FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		FAFAEDD0257CBCA700B53DDC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FAFAEDD1257CBCA700B53DDC /* TrendList.swift */,
+				FAFAEDD2257CBCA700B53DDC /* TrendRow.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,11 +485,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB993DE257B5FDB008D2EE6 /* TrendList.swift in Sources */,
 				FAB993A6257B5DBE008D2EE6 /* ContentView.swift in Sources */,
+				FAFAEDD3257CBCA700B53DDC /* TrendList.swift in Sources */,
 				FAB993D4257B5F4C008D2EE6 /* TrendingClient.swift in Sources */,
-				FAB993D9257B5F7F008D2EE6 /* TrendRow.swift in Sources */,
 				FAB993A4257B5DBE008D2EE6 /* TrendingApp.swift in Sources */,
+				FAFAEDD4257CBCA700B53DDC /* TrendRow.swift in Sources */,
 				FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */,
 				FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */,
 				FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */,

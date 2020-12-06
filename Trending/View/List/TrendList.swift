@@ -13,6 +13,7 @@ import Swinject
 struct TrendList: View {
     
     @ObservedObject private var topTrends:TopTrendsObservable
+    @State private var timeIndex = 0
     private let locator: Servicelocator
     
     init(locator: Servicelocator) {
@@ -20,15 +21,23 @@ struct TrendList: View {
         topTrends = locator.resolve()!
     }
     
-    var trendData: [TrendItem] = [
-        TrendItem(id: UUID(), key: "row 1", display: "row 1", value: 1),
-        TrendItem(id: UUID(), key: "row 1", display: "row 2", value: 1)
-    ]
+    private var header: some View {
+        Picker(selection: $timeIndex, label: Text("Picker")) {
+            Text("24hr").tag(0)
+            Text("12hr").tag(1)
+            Text("1hr").tag(2)
+        }.pickerStyle(SegmentedPickerStyle())
+    }
     
     var body: some View {
-        List(topTrends.trends) { trend  in
-            NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, locator: locator))) {
-                TrendRow(model: trend)
+        List {
+            Section(header: header) {
+                ForEach(topTrends.trends, id: \.self) { trend in
+                    return NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, locator: locator))) {
+                        TrendRow(model: trend)
+                    }
+                }
+                
             }
         }
         .navigationBarTitle("Trends")
