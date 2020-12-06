@@ -11,7 +11,7 @@ import SwiftUI
 struct TrendingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(Servicelocator())
         }
     }
 }

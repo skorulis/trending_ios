@@ -2,17 +2,21 @@ PODS:
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - Swinject (2.7.1)
 
 DEPENDENCIES:
   - Charts
+  - Swinject
 
 SPEC REPOS:
   trunk:
     - Charts
+    - Swinject
 
 SPEC CHECKSUMS:
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 463c02e188c43ea7af536b04e9d4a17fcdd2c262
+PODFILE CHECKSUM: 28faccef3d9c5c930367cc38614702504792a010
 
 COCOAPODS: 1.9.3

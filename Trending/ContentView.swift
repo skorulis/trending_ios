@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var locator: Servicelocator
+    
     var body: some View {
         NavigationView {
-            TrendList()
+            TrendList(locator: self.locator)
         }
         
     }

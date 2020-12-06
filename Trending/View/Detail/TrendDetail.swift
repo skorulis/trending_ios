@@ -14,10 +14,10 @@ struct TrendDetail: View {
     let trend: TrendItem
     @ObservedObject private var trendDetails: TrendDetailObservable
     
-    init(trend: TrendItem) {
+    init(trend: TrendItem, locator: Servicelocator) {
         self.trend = trend
         print("x: \(trend.display)")
-        trendDetails = TrendDetailObservable(trend: trend)
+        trendDetails = TrendDetailObservable(trend: trend, locator: locator)
     }
     
     var body: some View {
@@ -29,14 +29,15 @@ struct TrendDetail: View {
     
 }
 
-private class TrendDetailObservable: ObservableObject {
+class TrendDetailObservable: ObservableObject {
     
     @Published var details: TrendDetails?
     private var subscribers = Set<AnyCancellable>()
     
-    let client = TrendingClient()
+    var client: TrendingClient
     
-    init(trend: TrendItem) {
+    init(trend: TrendItem, locator: Servicelocator) {
+        client = locator.resolve()!
         client.getDetails(id: trend.id).sink { (completion) in
             print("Handle error \(completion)")
         } receiveValue: { (details) in

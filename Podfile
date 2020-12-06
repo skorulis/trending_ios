@@ -6,7 +6,9 @@ target 'Trending' do
   use_frameworks!
 
   # Pods for Trending
-  pod 'Charts' 
+  pod 'Charts'
+  pod 'Swinject'
+
 
   target 'TrendingTests' do
     inherit! :search_paths
