@@ -36,8 +36,6 @@ class Servicelocator: ObservableObject {
         container.register(BasicClient.self)
         container.register(TrendingClient.self)
         
-        //Observables
-        container.register(TopTrendsObservable.self)
     }
     
     func resolve<S>(_ type: S.Type = S.self) -> S? {

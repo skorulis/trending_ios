@@ -50,12 +50,14 @@ struct TrendingClient: ServiceType {
         return TrendingClient(network: resolver.resolve(RouterClient.self)!)
     }
     
-    func getTop() -> Future<[TrendItem],Error> {
-        return network.route(named: "top_trends")
+    func getTop(seconds: TimeInterval) -> Future<[TrendItem],Error> {
+        let queryParams = ["seconds":"\(seconds)"]
+        return network.route(named: "top_trends",querySubstitutions: queryParams)
     }
     
-    func getDetails(id: UUID) -> Future<TrendDetails, Error> {
-        return network.route(named: "trend_details_id", pathSubstitutions: ["id":id.uuidString])
+    func getDetails(id: UUID, seconds: TimeInterval) -> Future<TrendDetails, Error> {
+        let queryParams = ["seconds":"\(seconds)"]
+        return network.route(named: "trend_details_id", pathSubstitutions: ["id":id.uuidString], querySubstitutions: queryParams)
     }
     
 }

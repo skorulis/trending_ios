@@ -12,12 +12,14 @@ import Combine
 struct TrendDetail: View {
     
     let trend: TrendItem
+    let seconds: TimeInterval
     @ObservedObject private var trendDetails: TrendDetailObservable
     
-    init(trend: TrendItem, locator: Servicelocator) {
+    init(trend: TrendItem, seconds: TimeInterval, locator: Servicelocator) {
         self.trend = trend
+        self.seconds = seconds
         print("x: \(trend.display)")
-        trendDetails = TrendDetailObservable(trend: trend, locator: locator)
+        trendDetails = TrendDetailObservable(trend: trend, seconds: seconds, locator: locator)
     }
     
     var body: some View {
@@ -35,10 +37,12 @@ class TrendDetailObservable: ObservableObject {
     private var subscribers = Set<AnyCancellable>()
     
     var client: TrendingClient
+    let seconds: TimeInterval
     
-    init(trend: TrendItem, locator: Servicelocator) {
+    init(trend: TrendItem, seconds: TimeInterval, locator: Servicelocator) {
         client = locator.resolve()!
-        client.getDetails(id: trend.id).sink { (completion) in
+        self.seconds = seconds
+        client.getDetails(id: trend.id, seconds: seconds).sink { (completion) in
             print("Handle error \(completion)")
         } receiveValue: { (details) in
             print("GOt details")
