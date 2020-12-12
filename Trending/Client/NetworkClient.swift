@@ -29,6 +29,7 @@ class NetworkClient {
             }.decode(type: ResultType.self, decoder: JSONDecoder())
             .receive(on: RunLoop.main)
             .sink { (completion) in
+                
                 switch completion {
                 case .failure(let error):
                     promise(.failure(error))

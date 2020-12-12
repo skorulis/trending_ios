@@ -22,6 +22,8 @@
 		FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */; };
 		FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99431257C78DD008D2EE6 /* RouterClient.swift */; };
 		FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99436257C78EC008D2EE6 /* BasicClient.swift */; };
+		FAC1C1A025834C6B0020BAA4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1C19F25834C6B0020BAA4 /* SearchBar.swift */; };
+		FAC1C1A8258426A10020BAA4 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1C1A7258426A10020BAA4 /* ErrorHandler.swift */; };
 		FAFAEDD3257CBCA700B53DDC /* TrendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAEDD1257CBCA700B53DDC /* TrendList.swift */; };
 		FAFAEDD4257CBCA700B53DDC /* TrendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAEDD2257CBCA700B53DDC /* TrendRow.swift */; };
 		FAFAEDDD257D789C00B53DDC /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAEDDC257D789C00B53DDC /* PlaceListView.swift */; };
@@ -74,6 +76,8 @@
 		FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicelocator.swift; sourceTree = "<group>"; };
 		FAB99431257C78DD008D2EE6 /* RouterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterClient.swift; sourceTree = "<group>"; };
 		FAB99436257C78EC008D2EE6 /* BasicClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicClient.swift; sourceTree = "<group>"; };
+		FAC1C19F25834C6B0020BAA4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FAC1C1A7258426A10020BAA4 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		FAFAEDD1257CBCA700B53DDC /* TrendList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendList.swift; sourceTree = "<group>"; };
 		FAFAEDD2257CBCA700B53DDC /* TrendRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendRow.swift; sourceTree = "<group>"; };
 		FAFAEDDC257D789C00B53DDC /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 		FAB993A2257B5DBE008D2EE6 /* Trending */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1C19E25834C5C0020BAA4 /* Components */,
 				FAB99425257C5D4B008D2EE6 /* Service */,
 				FAB99412257C430B008D2EE6 /* Util */,
 				FAB993D2257B5F31008D2EE6 /* Client */,
@@ -229,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */,
+				FAC1C1A7258426A10020BAA4 /* ErrorHandler.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -239,6 +245,14 @@
 				FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		FAC1C19E25834C5C0020BAA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1C19F25834C6B0020BAA4 /* SearchBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		FAFAEDD0257CBCA700B53DDC /* List */ = {
@@ -511,10 +525,12 @@
 				FAFAEDD4257CBCA700B53DDC /* TrendRow.swift in Sources */,
 				FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */,
 				FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */,
+				FAC1C1A025834C6B0020BAA4 /* SearchBar.swift in Sources */,
 				FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */,
 				FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */,
 				FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */,
 				FAFAEDDD257D789C00B53DDC /* PlaceListView.swift in Sources */,
+				FAC1C1A8258426A10020BAA4 /* ErrorHandler.swift in Sources */,
 				FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */,
 				FAB99403257B8837008D2EE6 /* TrendDetail.swift in Sources */,
 			);

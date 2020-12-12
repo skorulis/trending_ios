@@ -20,8 +20,8 @@ struct TrendItem: Decodable, Hashable, Identifiable {
     }
 }
 
-struct IdItem: Decodable, Identifiable {
-    let id: UUID
+struct IdItem<T>: Decodable, Identifiable where T: Decodable, T: Hashable {
+    let id: T
 }
 
 struct OptionnalIdItem: Decodable {
@@ -32,7 +32,7 @@ struct TwitterDataPoint: Decodable, Identifiable {
     let id: UUID
     let value: Int64
     let createdAt: TimeInterval
-    let place: IdItem
+    let place: IdItem<Int32>
     
 }
 
@@ -47,8 +47,7 @@ enum NetworkError: Error {
 }
 
 struct Place: Decodable, Identifiable {
-    let woeid: Int
-    let id: UUID
+    let id: Int32
     let name: String
     let country: OptionnalIdItem?
 }
@@ -61,8 +60,11 @@ struct TrendingClient: ServiceType {
         return TrendingClient(network: resolver.resolve(RouterClient.self)!)
     }
     
-    func getTop(seconds: TimeInterval) -> Future<[TrendItem],Error> {
-        let queryParams = ["seconds":"\(seconds)"]
+    func getTop(seconds: TimeInterval, placeId: Int32?) -> Future<[TrendItem],Error> {
+        var queryParams = ["seconds":"\(seconds)"]
+        if let placeId = placeId {
+            queryParams["placeId"] = "\(placeId)"
+        }
         return network.route(named: "top_trends",querySubstitutions: queryParams)
     }
     

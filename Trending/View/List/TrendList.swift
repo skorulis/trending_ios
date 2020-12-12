@@ -35,14 +35,16 @@ private class TrendListViewModel: ObservableObject {
     
     private var subscribers = Set<AnyCancellable>()
     let client: TrendingClient
+    let place: Place?
     
-    init(client: TrendingClient) {
+    init(place: Place?, client: TrendingClient) {
+        self.place = place
         self.client = client
         getTrends()
     }
     
     func getTrends() {
-        client.getTop(seconds: seconds).sink { (error) in
+        client.getTop(seconds: seconds, placeId: place?.id).sink { (error) in
             print("Handle error \(error)")
         } receiveValue: { (trends) in
             self.trends = trends
@@ -61,7 +63,7 @@ struct TrendList: View {
     init(place: Place? = nil,  locator: Servicelocator) {
         self.locator = locator
         self.place = place
-        viewModel = TrendListViewModel(client: locator.resolve()!)
+        viewModel = TrendListViewModel(place: place, client: locator.resolve()!)
     }
     
     private var header: some View {

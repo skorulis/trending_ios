@@ -11,6 +11,7 @@ import Combine
 
 class PlaceListViewModel: ObservableObject {
     @Published var places: [Place] = []
+    @Published var searchText: String = ""
     private var subscribers = Set<AnyCancellable>()
     
     let client: TrendingClient
@@ -34,6 +35,7 @@ class PlaceListViewModel: ObservableObject {
 struct PlaceListView: View {
     
     @ObservedObject var viewModel: PlaceListViewModel
+    //@State var searchText: String = ""
     private let locator: Servicelocator
     
     init(locator: Servicelocator) {
@@ -41,11 +43,26 @@ struct PlaceListView: View {
         viewModel = PlaceListViewModel(locator: locator)
     }
     
+    var visiblePlaces: [Place] {
+        if viewModel.searchText.isEmpty {
+            return viewModel.places
+        }
+        return viewModel.places.filter { $0.name.localizedStandardContains(viewModel.searchText)}
+    }
+    
     var body: some View {
-        List(viewModel.places) { place in
-            return NavigationLink(destination: NavigationLazyView(TrendList(place: place, locator: locator))) {
-                Text(place.name)
+        List {
+            Section {
+                SearchBar(text: $viewModel.searchText)
             }
-        }.navigationTitle("Places")
+            Section {
+                ForEach(visiblePlaces) { place in
+                    return NavigationLink(destination: NavigationLazyView(TrendList(place: place, locator: locator))) {
+                        Text(place.name)
+                    }
+                }
+            }
+        }
+        .navigationTitle("Places")
     }
 }
