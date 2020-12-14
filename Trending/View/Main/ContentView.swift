@@ -28,11 +28,8 @@ struct ContentView: View {
                     PlaceListView(locator: self.locator)
                 }.tabItem { Text("Places") }
             }
-            
         } else {
-            Text("Loading routes \(viewModel.routerClient.routesLoaded ? "YES" : "NO" )").emittingError(viewModel.error, retryHandler: {
-                viewModel.load()
-            })
+            Text("Loading routes").modifier(viewModel.errorBehaviour.modifier)
         }
     }
 }
@@ -40,25 +37,29 @@ struct ContentView: View {
 extension ContentView {
     class ViewModel: ObservableObject {
         
-        @ObservedObject var routerClient: RouterClient
-        @Published var error: Error?
+        @Published var routerClient: RouterClient
         private var subscribers = Set<AnyCancellable>()
+        private var behaviours = BehaviourContainer()
+        let errorBehaviour = ErrorDisplayBehaviour()
         
         init(locator: Servicelocator) {
             routerClient = locator.resolve()!
+            errorBehaviour.retryHandler = {
+                self.load()
+            }
+            
+            errorBehaviour.objectWillChange.sink { (_) in
+                self.objectWillChange.send()
+            }.store(in: &subscribers)
+            
+            routerClient.objectWillChange.sink { (_) in
+                self.objectWillChange.send()
+            }.store(in: &subscribers)
             load()
         }
         
         func load() {
-            self.error = nil
-            routerClient.loadRoutes().sink { (completion) in
-                print("Something")
-                if case let Subscribers.Completion.failure(error) = completion {
-                    self.error = error
-                }
-            } receiveValue: { (_) in
-                //No action
-            }.store(in: &subscribers)
+            errorBehaviour.handle(routerClient.loadRoutes())
         }
     }
 }

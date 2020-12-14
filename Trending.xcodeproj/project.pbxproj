@@ -11,6 +11,10 @@
 		8F560CE6515AE71211823733 /* Pods_Trending_TrendingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF29089FDAA4F9C7B5D3297 /* Pods_Trending_TrendingUITests.framework */; };
 		F6E677EA639DD41F65D773B4 /* Pods_Trending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F25AFF51BDD02ADF5C39 /* Pods_Trending.framework */; };
 		FA3C49AB2586ECED00A6D625 /* AnalyticsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49AA2586ECED00A6D625 /* AnalyticsTest.swift */; };
+		FA3C49B4258707E800A6D625 /* BehaviourProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49B3258707E800A6D625 /* BehaviourProtocol.swift */; };
+		FA3C49B9258707F100A6D625 /* ScreenViewBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49B8258707F100A6D625 /* ScreenViewBehaviour.swift */; };
+		FA3C49BE2587085600A6D625 /* ErrorDisplayBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49BD2587085500A6D625 /* ErrorDisplayBehaviour.swift */; };
+		FA3C49C32587193300A6D625 /* BehaviourContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49C22587193300A6D625 /* BehaviourContainer.swift */; };
 		FAB993A8257B5DC0008D2EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */; };
 		FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */; };
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
@@ -60,6 +64,10 @@
 		AA7C3F315B6E0FA5AF737A0A /* Pods-Trending-TrendingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trending-TrendingUITests.release.xcconfig"; path = "Target Support Files/Pods-Trending-TrendingUITests/Pods-Trending-TrendingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CFF29089FDAA4F9C7B5D3297 /* Pods_Trending_TrendingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trending_TrendingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3C49AA2586ECED00A6D625 /* AnalyticsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTest.swift; sourceTree = "<group>"; };
+		FA3C49B3258707E800A6D625 /* BehaviourProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviourProtocol.swift; sourceTree = "<group>"; };
+		FA3C49B8258707F100A6D625 /* ScreenViewBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewBehaviour.swift; sourceTree = "<group>"; };
+		FA3C49BD2587085500A6D625 /* ErrorDisplayBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDisplayBehaviour.swift; sourceTree = "<group>"; };
+		FA3C49C22587193300A6D625 /* BehaviourContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviourContainer.swift; sourceTree = "<group>"; };
 		FAB993A0257B5DBE008D2EE6 /* Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -146,6 +154,17 @@
 			path = Analytics;
 			sourceTree = "<group>";
 		};
+		FA3C49AF2587056100A6D625 /* Behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C49B3258707E800A6D625 /* BehaviourProtocol.swift */,
+				FA3C49B8258707F100A6D625 /* ScreenViewBehaviour.swift */,
+				FA3C49BD2587085500A6D625 /* ErrorDisplayBehaviour.swift */,
+				FA3C49C22587193300A6D625 /* BehaviourContainer.swift */,
+			);
+			path = Behaviour;
+			sourceTree = "<group>";
+		};
 		FAB99397257B5DBE008D2EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +190,7 @@
 		FAB993A2257B5DBE008D2EE6 /* Trending */ = {
 			isa = PBXGroup;
 			children = (
+				FA3C49AF2587056100A6D625 /* Behaviour */,
 				FAC1C19E25834C5C0020BAA4 /* Components */,
 				FAB99425257C5D4B008D2EE6 /* Service */,
 				FAB99412257C430B008D2EE6 /* Util */,
@@ -535,16 +555,20 @@
 				FAFAEDE8257D78EC00B53DDC /* ContentView.swift in Sources */,
 				FAFAEDD4257CBCA700B53DDC /* TrendRow.swift in Sources */,
 				FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */,
+				FA3C49B9258707F100A6D625 /* ScreenViewBehaviour.swift in Sources */,
 				FA3C49AB2586ECED00A6D625 /* AnalyticsTest.swift in Sources */,
 				FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */,
 				FAC1C1A025834C6B0020BAA4 /* SearchBar.swift in Sources */,
+				FA3C49B4258707E800A6D625 /* BehaviourProtocol.swift in Sources */,
 				FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */,
 				FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */,
+				FA3C49BE2587085600A6D625 /* ErrorDisplayBehaviour.swift in Sources */,
 				FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */,
 				FAFAEDDD257D789C00B53DDC /* PlaceListView.swift in Sources */,
 				FAC1C1A8258426A10020BAA4 /* ErrorHandler.swift in Sources */,
 				FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */,
 				FAB99403257B8837008D2EE6 /* TrendDetail.swift in Sources */,
+				FA3C49C32587193300A6D625 /* BehaviourContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
