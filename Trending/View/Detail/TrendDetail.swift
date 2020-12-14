@@ -27,7 +27,7 @@ struct TrendDetail: View {
         }.emittingError(viewModel.error, retryHandler: {
             viewModel.load()
         })
-        .modifier(ScreenViewAnalytics(pageName: "detail"))
+        .modifier(ScreenViewModifier(tag: Analytics.Trends.viewDetail))
         .navigationBarTitle(trend.display)
     }
     

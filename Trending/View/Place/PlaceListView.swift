@@ -62,7 +62,7 @@ struct PlaceListView: View {
                 }
             }
         }
-        .modifier(ScreenViewAnalytics(pageName: "Places"))
+        .modifier(ScreenViewModifier(tag: Analytics.Places.list))
         .navigationTitle("Places")
     }
 }

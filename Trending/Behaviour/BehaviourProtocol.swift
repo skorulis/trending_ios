@@ -9,9 +9,5 @@ import Foundation
 import SwiftUI
 
 protocol BehaviourProtocol {
-    //associatedtype ModifierType: ViewModifier
     
-    //func modifier() -> ModifierType
-    
-    //func modify(view: AnyView)
 }
