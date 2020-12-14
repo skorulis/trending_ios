@@ -35,8 +35,9 @@ class TrendChart: LineChartView, ChartViewDelegate {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.delegate = self
-        
         rightAxis.enabled = false
+        dragEnabled = false
+        isUserInteractionEnabled = false
         
         xAxis.drawLabelsEnabled = false
         
@@ -51,6 +52,7 @@ class TrendChart: LineChartView, ChartViewDelegate {
         let line = LineChartDataSet(entries: points)
         line.circleRadius = 0
         line.colors = [NSUIColor.black]
+        
         self.data = LineChartData(dataSet: line)
     }
     

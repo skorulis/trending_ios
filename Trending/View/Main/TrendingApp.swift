@@ -11,7 +11,6 @@ import SwiftUI
 struct TrendingApp: App {
     var body: some Scene {
         let services = Servicelocator()
-        services.resolve(RouterClient.self)?.loadRoutes()
         return WindowGroup {
             ContentView(locator: services).environmentObject(services)
         }

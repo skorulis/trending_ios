@@ -35,7 +35,6 @@ class PlaceListViewModel: ObservableObject {
 struct PlaceListView: View {
     
     @ObservedObject var viewModel: PlaceListViewModel
-    //@State var searchText: String = ""
     private let locator: Servicelocator
     
     init(locator: Servicelocator) {
@@ -63,6 +62,7 @@ struct PlaceListView: View {
                 }
             }
         }
+        .modifier(ScreenViewAnalytics(pageName: "Places"))
         .navigationTitle("Places")
     }
 }

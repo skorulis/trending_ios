@@ -27,10 +27,12 @@ struct TrendDetail: View {
         }.emittingError(viewModel.error, retryHandler: {
             viewModel.load()
         })
+        .modifier(ScreenViewAnalytics(pageName: "detail"))
         .navigationBarTitle(trend.display)
     }
     
 }
+
 
 extension TrendDetail {
     
@@ -56,9 +58,7 @@ extension TrendDetail {
                 if case let Subscribers.Completion.failure(error) = completion {
                     self.error = error
                 }
-                print("Handle error \(completion)")
             } receiveValue: { (details) in
-                print("GOt details")
                 self.details = details
             }.store(in: &subscribers)
         }

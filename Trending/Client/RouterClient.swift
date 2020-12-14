@@ -9,13 +9,13 @@ import Foundation
 import Combine
 import Swinject
 
-fileprivate struct RouteModel: Decodable {
+struct RouteModel: Decodable {
     let path: String
     let method: String
     let queryParams: [String: String]?
 }
 
-fileprivate struct RouterClientModel: Decodable {
+struct RouterClientModel: Decodable {
     
     let routes: [String: RouteModel]
     
@@ -48,7 +48,7 @@ final class RouterClient: NetworkClient, ObservableObject {
         self.baseURL = baseURL
     }
     
-    func loadRoutes() {
+    func loadRoutes() -> Future<RouterClientModel, Error> {
         let future: Future<RouterClientModel,Error> = get(url: URL(string: self.baseURL)!)
         future.sink { (completion) in
             if case let .failure(error) = completion {
@@ -58,6 +58,8 @@ final class RouterClient: NetworkClient, ObservableObject {
             self.routes = model.routes
             self.routesLoaded = true
         }.store(in: &subscibers)
+        
+        return future
     }
     
     func route<S>(named: String, pathSubstitutions: [String: String] = [:], querySubstitutions: [String: String] = [:]) -> Future<S,Error> where S: Decodable {
