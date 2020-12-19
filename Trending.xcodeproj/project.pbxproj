@@ -16,6 +16,7 @@
 		FA3C49C32587193300A6D625 /* BehaviourContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49C22587193300A6D625 /* BehaviourContainer.swift */; };
 		FA3C49C92587285E00A6D625 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49C82587285E00A6D625 /* Analytics.swift */; };
 		FA3C49D1258729B400A6D625 /* Analytics+Trends.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */; };
+		FA3C49E82587526000A6D625 /* AmplitudeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */; };
 		FAB993A8257B5DC0008D2EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */; };
 		FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */; };
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
@@ -70,6 +71,7 @@
 		FA3C49C22587193300A6D625 /* BehaviourContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviourContainer.swift; sourceTree = "<group>"; };
 		FA3C49C82587285E00A6D625 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Analytics+Trends.swift"; sourceTree = "<group>"; };
+		FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeLogger.swift; sourceTree = "<group>"; };
 		FAB993A0257B5DBE008D2EE6 /* Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			children = (
 				FA3C49C82587285E00A6D625 /* Analytics.swift */,
 				FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */,
+				FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */,
 				FAB99403257B8837008D2EE6 /* TrendDetail.swift in Sources */,
 				FA3C49C32587193300A6D625 /* BehaviourContainer.swift in Sources */,
+				FA3C49E82587526000A6D625 /* AmplitudeLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +646,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 13;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -703,6 +708,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 13;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -730,7 +736,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Trending/Preview Content\"";
 				DEVELOPMENT_TEAM = X4S6MUZL2D;
 				ENABLE_PREVIEWS = YES;
@@ -742,6 +749,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skorulis.Trending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.skorulis.Trending";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -753,7 +761,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Trending/Preview Content\"";
 				DEVELOPMENT_TEAM = X4S6MUZL2D;
 				ENABLE_PREVIEWS = YES;
@@ -765,6 +774,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skorulis.Trending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.skorulis.Trending";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,22 +1,37 @@
 PODS:
+  - Amplitude-iOS (4.9.3)
+  - AppCenter (4.0.0):
+    - AppCenter/Analytics (= 4.0.0)
+    - AppCenter/Crashes (= 4.0.0)
+  - AppCenter/Analytics (4.0.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.0.0)
+  - AppCenter/Crashes (4.0.0):
+    - AppCenter/Core
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
   - Swinject (2.7.1)
 
 DEPENDENCIES:
+  - Amplitude-iOS (~> 4.9.3)
+  - AppCenter
   - Charts
   - Swinject
 
 SPEC REPOS:
   trunk:
+    - Amplitude-iOS
+    - AppCenter
     - Charts
     - Swinject
 
 SPEC CHECKSUMS:
+  Amplitude-iOS: 122e026c44db8460e5efcf84859aa290a0ae9786
+  AppCenter: 51351e0121e40ba75e28ecb7de5c2e69d480df5e
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 28faccef3d9c5c930367cc38614702504792a010
+PODFILE CHECKSUM: c912a9a2a2a0c5929d3856d089e5cf280b9dc076
 
 COCOAPODS: 1.9.3

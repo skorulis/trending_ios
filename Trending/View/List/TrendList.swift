@@ -45,7 +45,7 @@ private class TrendListViewModel: ObservableObject {
     
     func getTrends() {
         client.getTop(seconds: seconds, placeId: place?.id).sink { (error) in
-            print("Handle error \(error)")
+            //print("Handle error \(error)")
         } receiveValue: { (trends) in
             self.trends = trends
         }.store(in: &subscribers)

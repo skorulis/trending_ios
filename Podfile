@@ -8,7 +8,8 @@ target 'Trending' do
   # Pods for Trending
   pod 'Charts'
   pod 'Swinject'
-
+  pod 'Amplitude-iOS', '~> 4.9.3'
+  pod 'AppCenter'
 
   target 'TrendingTests' do
     inherit! :search_paths

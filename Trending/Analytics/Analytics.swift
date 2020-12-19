@@ -17,6 +17,7 @@ protocol AnalyticsTag {
 
 extension AnalyticsTag {
     func track() {
+        AmplitudeLogger.track(tag: self)
         print("Track: \(pagename)")
     }
 }

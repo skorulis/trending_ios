@@ -1,0 +1,53 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :beta do
+  
+  	originalBuildNumber = get_build_number
+  
+  	commitNumber = sh("git rev-list --count HEAD")
+  	increment_build_number(
+  		build_number: commitNumber
+  	)
+  
+  	build_app(scheme: "Trending",
+            workspace: "Trending.xcworkspace",
+            include_bitcode: true,
+            export_method: "ad-hoc",
+            output_directory: "build",
+  			output_name: "trending_beta"
+            )
+            
+    increment_build_number(
+  		build_number: originalBuildNumber
+  	)
+
+  end
+  
+  desc "Upload build to app center"
+  lane :upload_beta do
+  	appcenter_upload(
+  		api_token: "6d6e783cd32b24956053d9a201d87e8574e786a6",
+  		owner_name: "skorulis-77xc",
+  		app_name: "Trending",
+		file: "build/trending_beta.ipa",
+		notify_testers: true
+  	)
+  end
+end
