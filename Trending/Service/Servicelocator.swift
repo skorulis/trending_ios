@@ -15,6 +15,13 @@ extension Container {
             return S.make(resolver)
         }
     }
+    
+    func register<S, T>(_ type: S.Type = S.self, as baseType: T.Type) where S: ServiceType {
+        register(baseType) { (resolver) -> T in
+            //Runtime safety check
+            return S.make(resolver) as! T
+        }
+    }
 }
 
 extension Resolver {
@@ -30,8 +37,9 @@ class Servicelocator: ObservableObject {
     let container: Container = Container()
     
     init() {
+        container.register(EmptyDebugResponseProvider.self, as: DebugResponseProvider.self)
         container.register(NetworkClient.self) { (resolver) -> NetworkClient in
-            return RouterClient(baseURL: "http://localhost:7000/")
+            return RouterClient(baseURL: "http://localhost:7000/", debugResponseProvider: resolver.resolve(DebugResponseProvider.self))
         }.implements(RouterClient.self).inObjectScope(.container)
         container.register(BasicClient.self)
         container.register(TrendingClient.self)
@@ -42,4 +50,15 @@ class Servicelocator: ObservableObject {
         return container.resolve(type)
     }
     
+    
+}
+
+extension Servicelocator {
+    
+    //Locator specifically for previews
+    static var preview: Servicelocator {
+        let locator = Servicelocator()
+        locator.container.register(RollingDebugResponseProvider.self, as: DebugResponseProvider.self)
+        return locator
+    }
 }

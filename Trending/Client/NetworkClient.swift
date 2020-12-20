@@ -13,9 +13,28 @@ class NetworkClient {
     
     private let session: URLSession
     var subscibers: Set<AnyCancellable> = []
+    var debugResponseProvider: DebugResponseProvider?
     
     init() {
         self.session = URLSession(configuration: .default)
+    }
+    
+    func execute<ResultType>(appRequest: AppRequest) -> Future<ResultType, Error> where ResultType: Decodable {
+        if let debugResponse = debugResponseProvider?.getResponse(request: appRequest) {
+            return Future<ResultType,Error> { (promise) in
+                do {
+                    let result = try JSONDecoder().decode(ResultType.self, from: debugResponse.data)
+                    DispatchQueue.main.async {
+                        promise(.success(result))
+                    }
+                } catch {
+                    promise(.failure(error))
+                }
+                
+            }
+        }
+        
+        return execute(request: appRequest.urlRequest)
     }
     
     func execute<ResultType>(request: URLRequest) -> Future<ResultType, Error> where ResultType: Decodable {

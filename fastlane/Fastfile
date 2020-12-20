@@ -16,8 +16,15 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
+
+  desc "Build and upload beta"
   lane :beta do
+  	build_beta()
+  	upload_beta()
+  end
+
+  desc "Description of what the lane does"
+  lane :build_beta do
   
   	originalBuildNumber = get_build_number
   

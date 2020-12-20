@@ -1,0 +1,3739 @@
+
+[
+  {
+    "id" : 8676,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Edmonton",
+    "lastUpdate" : 1607940899.3720269
+  },
+  {
+    "id" : 8775,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Calgary [TEST]",
+    "lastUpdate" : 1607940901.4392231
+  },
+  {
+    "id" : 9807,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Vancouver",
+    "lastUpdate" : 1607940915.3713388
+  },
+  {
+    "id" : 12723,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Birmingham",
+    "lastUpdate" : 1607940930.3757601
+  },
+  {
+    "id" : 12903,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Blackpool",
+    "lastUpdate" : 1607940959.355788
+  },
+  {
+    "id" : 13383,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Bournemouth",
+    "lastUpdate" : 1607940961.4424891
+  },
+  {
+    "id" : 13911,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Brighton",
+    "lastUpdate" : 1607940975.3504848
+  },
+  {
+    "id" : 13963,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Bristol",
+    "lastUpdate" : 1607940990.3512759
+  },
+  {
+    "id" : 15127,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Cardiff",
+    "lastUpdate" : 1607941019.353735
+  },
+  {
+    "id" : 17044,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Coventry",
+    "lastUpdate" : 1607941021.3697991
+  },
+  {
+    "id" : 18114,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Derby",
+    "lastUpdate" : 1607941035.3454242
+  },
+  {
+    "id" : 19344,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Edinburgh",
+    "lastUpdate" : 1607941050.362247
+  },
+  {
+    "id" : 25211,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Hull",
+    "lastUpdate" : 1607941081.3577771
+  },
+  {
+    "id" : 26042,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Leeds",
+    "lastUpdate" : 1607941095.359699
+  },
+  {
+    "id" : 26062,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Leicester",
+    "lastUpdate" : 1607941110.363014
+  },
+  {
+    "id" : 26734,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Liverpool",
+    "lastUpdate" : 1607941139.374758
+  },
+  {
+    "id" : 28218,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Manchester",
+    "lastUpdate" : 1607941141.3736989
+  },
+  {
+    "id" : 28869,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Middlesbrough",
+    "lastUpdate" : 1607941155.3647161
+  },
+  {
+    "id" : 30079,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Newcastle",
+    "lastUpdate" : 1607941170.3697581
+  },
+  {
+    "id" : 30720,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Nottingham",
+    "lastUpdate" : 1607941199.3640079
+  },
+  {
+    "id" : 32185,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Plymouth",
+    "lastUpdate" : 1607941201.364661
+  },
+  {
+    "id" : 32452,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Portsmouth",
+    "lastUpdate" : 1607941215.397207
+  },
+  {
+    "id" : 32566,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Preston",
+    "lastUpdate" : 1607941230.3602161
+  },
+  {
+    "id" : 34503,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Sheffield",
+    "lastUpdate" : 1607941259.3705039
+  },
+  {
+    "id" : 36240,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Stoke-on-Trent",
+    "lastUpdate" : 1607941261.3817029
+  },
+  {
+    "id" : 36758,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Swansea",
+    "lastUpdate" : 1607941275.4073839
+  },
+  {
+    "id" : 44418,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "London",
+    "lastUpdate" : 1607941290.354646
+  },
+  {
+    "id" : 44544,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Belfast",
+    "lastUpdate" : 1607941319.3683529
+  },
+  {
+    "id" : 83123,
+    "country" : {
+      "id" : "E9855095-8E24-4BD6-8116-D221BDC75538"
+    },
+    "name" : "Guatemala City",
+    "lastUpdate" : 1607941335.242486
+  },
+  {
+    "id" : 110978,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Acapulco",
+    "lastUpdate" : 1607941350.334307
+  },
+  {
+    "id" : 111579,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Aguascalientes",
+    "lastUpdate" : 1607941379.3372889
+  },
+  {
+    "id" : 115958,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Chihuahua",
+    "lastUpdate" : 1607941381.345989
+  },
+  {
+    "id" : 116545,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Mexico City",
+    "lastUpdate" : 1607941395.3359089
+  },
+  {
+    "id" : 116556,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Ciudad Juarez",
+    "lastUpdate" : 1607941410.4876871
+  },
+  {
+    "id" : 116564,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Nezahualcóyotl",
+    "lastUpdate" : 1607941439.3598409
+  },
+  {
+    "id" : 117994,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Culiacán",
+    "lastUpdate" : 1607941441.326685
+  },
+  {
+    "id" : 118466,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Ecatepec de Morelos",
+    "lastUpdate" : 1607941455.3351769
+  },
+  {
+    "id" : 124162,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Guadalajara",
+    "lastUpdate" : 1607941470.3260179
+  },
+  {
+    "id" : 124785,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Hermosillo",
+    "lastUpdate" : 1607941499.3402619
+  },
+  {
+    "id" : 131068,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "León",
+    "lastUpdate" : 1607941501.448319
+  },
+  {
+    "id" : 133327,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Mérida",
+    "lastUpdate" : 1607941515.3431149
+  },
+  {
+    "id" : 133475,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Mexicali",
+    "lastUpdate" : 1607941530.3388791
+  },
+  {
+    "id" : 134047,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Monterrey",
+    "lastUpdate" : 1607941559.3670659
+  },
+  {
+    "id" : 134091,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Morelia",
+    "lastUpdate" : 1607941561.338563
+  },
+  {
+    "id" : 141272,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Saltillo",
+    "lastUpdate" : 1607941621.347636
+  },
+  {
+    "id" : 144265,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "San Luis Potosí",
+    "lastUpdate" : 1607943435.493789
+  },
+  {
+    "id" : 149361,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Tijuana",
+    "lastUpdate" : 1607943448.8731489
+  },
+  {
+    "id" : 149769,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Toluca",
+    "lastUpdate" : 1607943453.453608
+  },
+  {
+    "id" : 332471,
+    "country" : {
+      "id" : "FC5B5B53-952F-410B-8FC4-1B260009C8A5"
+    },
+    "name" : "Mendoza",
+    "lastUpdate" : 1607943482.8650289
+  },
+  {
+    "id" : 151582,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Zapopan",
+    "lastUpdate" : 1607943481.313364
+  },
+  {
+    "id" : 349859,
+    "country" : {
+      "id" : "819F345D-9F53-4894-A331-5549E2AEA354"
+    },
+    "name" : "Santiago",
+    "lastUpdate" : 1607943495.4369941
+  },
+  {
+    "id" : 349861,
+    "country" : {
+      "id" : "819F345D-9F53-4894-A331-5549E2AEA354"
+    },
+    "name" : "Valparaiso",
+    "lastUpdate" : 1607944472.9700079
+  },
+  {
+    "id" : 349860,
+    "country" : {
+      "id" : "819F345D-9F53-4894-A331-5549E2AEA354"
+    },
+    "name" : "Concepcion",
+    "lastUpdate" : 1607944466.8339241
+  },
+  {
+    "id" : 368148,
+    "country" : {
+      "id" : "9FC261FA-5472-4595-A75D-9C0260C87B20"
+    },
+    "name" : "Bogotá",
+    "lastUpdate" : 1607944477.6406841
+  },
+  {
+    "id" : 368149,
+    "country" : {
+      "id" : "9FC261FA-5472-4595-A75D-9C0260C87B20"
+    },
+    "name" : "Cali",
+    "lastUpdate" : 1607946522.7655721
+  },
+  {
+    "id" : 368150,
+    "country" : {
+      "id" : "9FC261FA-5472-4595-A75D-9C0260C87B20"
+    },
+    "name" : "Medellín",
+    "lastUpdate" : 1607946536.7829261
+  },
+  {
+    "id" : 375732,
+    "country" : {
+      "id" : "9F766C35-F39D-4FF9-BD7D-DF2B783CC4F6"
+    },
+    "name" : "Quito",
+    "lastUpdate" : 1607946551.5045528
+  },
+  {
+    "id" : 368151,
+    "country" : {
+      "id" : "9FC261FA-5472-4595-A75D-9C0260C87B20"
+    },
+    "name" : "Barranquilla",
+    "lastUpdate" : 1607946544.7641869
+  },
+  {
+    "id" : 375733,
+    "country" : {
+      "id" : "9F766C35-F39D-4FF9-BD7D-DF2B783CC4F6"
+    },
+    "name" : "Guayaquil",
+    "lastUpdate" : 1607946557.503329
+  },
+  {
+    "id" : 395269,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Caracas",
+    "lastUpdate" : 1607953773.645632
+  },
+  {
+    "id" : 395273,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Barcelona",
+    "lastUpdate" : 1607956173.6119919
+  },
+  {
+    "id" : 395270,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Maracaibo",
+    "lastUpdate" : 1607953796.9071321
+  },
+  {
+    "id" : 395271,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Maracay",
+    "lastUpdate" : 1607953806.1873031
+  },
+  {
+    "id" : 395272,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Valencia",
+    "lastUpdate" : 1607956160.885812
+  },
+  {
+    "id" : 395277,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Turmero",
+    "lastUpdate" : 1607963391.9816251
+  },
+  {
+    "id" : 455819,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Brasília",
+    "lastUpdate" : 1607963429.966454
+  },
+  {
+    "id" : 418440,
+    "country" : {
+      "id" : "4F81A513-5D7E-4ABD-A3A6-C46F0A2D30FE"
+    },
+    "name" : "Lima",
+    "lastUpdate" : 1607963405.3373609
+  },
+  {
+    "id" : 3369,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Ottawa",
+    "lastUpdate" : 1607940839.366087
+  },
+  {
+    "id" : 3444,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Quebec",
+    "lastUpdate" : 1607940841.3789539
+  },
+  {
+    "id" : 3534,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Montreal",
+    "lastUpdate" : 1607940855.365906
+  },
+  {
+    "id" : 4118,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Toronto",
+    "lastUpdate" : 1607940870.386137
+  },
+  {
+    "id" : 455820,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Belém",
+    "lastUpdate" : 1607970663.4238839
+  },
+  {
+    "id" : 455821,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Belo Horizonte",
+    "lastUpdate" : 1607976105.9551339
+  },
+  {
+    "id" : 1117034,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Chiba",
+    "lastUpdate" : 1607936699.354758
+  },
+  {
+    "id" : 1117099,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Fukuoka",
+    "lastUpdate" : 1607936701.3648119
+  },
+  {
+    "id" : 1117155,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Hamamatsu",
+    "lastUpdate" : 1607936715.3662901
+  },
+  {
+    "id" : 1117502,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Kawasaki",
+    "lastUpdate" : 1607936759.3649011
+  },
+  {
+    "id" : 1117545,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Kobe",
+    "lastUpdate" : 1607936761.354965
+  },
+  {
+    "id" : 1117605,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Kumamoto",
+    "lastUpdate" : 1607936775.3656669
+  },
+  {
+    "id" : 1117817,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Nagoya",
+    "lastUpdate" : 1607936790.3547959
+  },
+  {
+    "id" : 1117881,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Niigata",
+    "lastUpdate" : 1607936819.344197
+  },
+  {
+    "id" : 1118072,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Sagamihara",
+    "lastUpdate" : 1607936821.3525882
+  },
+  {
+    "id" : 1118108,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Sapporo",
+    "lastUpdate" : 1607936835.3545799
+  },
+  {
+    "id" : 1118129,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Sendai",
+    "lastUpdate" : 1607936850.3654909
+  },
+  {
+    "id" : 1118285,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Takamatsu",
+    "lastUpdate" : 1607936879.3435349
+  },
+  {
+    "id" : 1118370,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Tokyo",
+    "lastUpdate" : 1607936881.3638902
+  },
+  {
+    "id" : 1118550,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Yokohama",
+    "lastUpdate" : 1607936895.360594
+  },
+  {
+    "id" : 1130853,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Goyang",
+    "lastUpdate" : 1607936910.364701
+  },
+  {
+    "id" : 1132094,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Yongin",
+    "lastUpdate" : 1607936939.400743
+  },
+  {
+    "id" : 1132444,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Ansan",
+    "lastUpdate" : 1607936941.3609772
+  },
+  {
+    "id" : 1132445,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Bucheon",
+    "lastUpdate" : 1607936955.368609
+  },
+  {
+    "id" : 1132447,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Busan",
+    "lastUpdate" : 1607936970.370971
+  },
+  {
+    "id" : 1132466,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Daegu",
+    "lastUpdate" : 1607937001.3969679
+  },
+  {
+    "id" : 1132481,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Gwangju",
+    "lastUpdate" : 1607937015.3973489
+  },
+  {
+    "id" : 1132496,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Incheon",
+    "lastUpdate" : 1607937030.3559351
+  },
+  {
+    "id" : 1132559,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Seongnam",
+    "lastUpdate" : 1607937059.359901
+  },
+  {
+    "id" : 1132567,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Suwon",
+    "lastUpdate" : 1607937061.3586669
+  },
+  {
+    "id" : 1132578,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Ulsan",
+    "lastUpdate" : 1607937075.355315
+  },
+  {
+    "id" : 1132599,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Seoul",
+    "lastUpdate" : 1607937090.355895
+  },
+  {
+    "id" : 1141268,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Kajang",
+    "lastUpdate" : 1607937119.3752651
+  },
+  {
+    "id" : 1154679,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Ipoh",
+    "lastUpdate" : 1607937121.3488531
+  },
+  {
+    "id" : 1154698,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Johor Bahru",
+    "lastUpdate" : 1607937135.3464589
+  },
+  {
+    "id" : 1154726,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Klang",
+    "lastUpdate" : 1607937150.4670811
+  },
+  {
+    "id" : 1154781,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Kuala Lumpur",
+    "lastUpdate" : 1607937179.3538151
+  },
+  {
+    "id" : 1167715,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Calocan",
+    "lastUpdate" : 1607937181.404845
+  },
+  {
+    "id" : 1180689,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Makati",
+    "lastUpdate" : 1607937195.3727341
+  },
+  {
+    "id" : 1187115,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Pasig",
+    "lastUpdate" : 1607937210.4504008
+  },
+  {
+    "id" : 1195098,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Taguig",
+    "lastUpdate" : 1607937239.355479
+  },
+  {
+    "id" : 1199002,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Cagayan de Oro",
+    "lastUpdate" : 1607937255.3577709
+  },
+  {
+    "id" : 1199079,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Cebu City",
+    "lastUpdate" : 1607937270.3574319
+  },
+  {
+    "id" : 1199136,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Davao City",
+    "lastUpdate" : 1607937299.370434
+  },
+  {
+    "id" : 1199477,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Manila",
+    "lastUpdate" : 1607937301.4023371
+  },
+  {
+    "id" : 1199682,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Quezon City",
+    "lastUpdate" : 1607937315.3674941
+  },
+  {
+    "id" : 1199980,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Zamboanga City",
+    "lastUpdate" : 1607937330.3810282
+  },
+  {
+    "id" : 641142,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Bremen",
+    "lastUpdate" : 1607977230.3656631
+  },
+  {
+    "id" : 1387660,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Benin City",
+    "lastUpdate" : 1607937481.4213769
+  },
+  {
+    "id" : 1393672,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Ibadan",
+    "lastUpdate" : 1607937495.361191
+  },
+  {
+    "id" : 1396439,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Kaduna",
+    "lastUpdate" : 1607937510.3655648
+  },
+  {
+    "id" : 1396803,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Kano",
+    "lastUpdate" : 1607937539.3487902
+  },
+  {
+    "id" : 1398823,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Lagos",
+    "lastUpdate" : 1607937541.412504
+  },
+  {
+    "id" : 1404447,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Port Harcourt",
+    "lastUpdate" : 1607937555.4377079
+  },
+  {
+    "id" : 1521643,
+    "country" : {
+      "id" : "6776F561-8B0D-4E75-B7AA-91276957B321"
+    },
+    "name" : "Giza",
+    "lastUpdate" : 1607937570.388587
+  },
+  {
+    "id" : 1521894,
+    "country" : {
+      "id" : "6776F561-8B0D-4E75-B7AA-91276957B321"
+    },
+    "name" : "Cairo",
+    "lastUpdate" : 1607937599.3711481
+  },
+  {
+    "id" : 1522006,
+    "country" : {
+      "id" : "6776F561-8B0D-4E75-B7AA-91276957B321"
+    },
+    "name" : "Alexandria",
+    "lastUpdate" : 1607937601.4189539
+  },
+  {
+    "id" : 1528335,
+    "country" : {
+      "id" : "75DD80AE-8048-4731-B840-5FF88294C723"
+    },
+    "name" : "Mombasa",
+    "lastUpdate" : 1607937615.428472
+  },
+  {
+    "id" : 1580913,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "Durban",
+    "lastUpdate" : 1607937659.3957582
+  },
+  {
+    "id" : 1582504,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "Johannesburg",
+    "lastUpdate" : 1607937661.391156
+  },
+  {
+    "id" : 1586614,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "Port Elizabeth",
+    "lastUpdate" : 1607937675.3705721
+  },
+  {
+    "id" : 1586638,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "Pretoria",
+    "lastUpdate" : 1607937690.392066
+  },
+  {
+    "id" : 1587677,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "Soweto",
+    "lastUpdate" : 1607937719.490052
+  },
+  {
+    "id" : 1591691,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "Cape Town",
+    "lastUpdate" : 1607937721.3579741
+  },
+  {
+    "id" : 1937801,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Medina",
+    "lastUpdate" : 1607937735.387619
+  },
+  {
+    "id" : 1939574,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Dammam",
+    "lastUpdate" : 1607937750.3775291
+  },
+  {
+    "id" : 1939753,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Riyadh",
+    "lastUpdate" : 1607937779.367733
+  },
+  {
+    "id" : 1939873,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Jeddah",
+    "lastUpdate" : 1607937781.369067
+  },
+  {
+    "id" : 1939897,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Mecca",
+    "lastUpdate" : 1607937795.5777521
+  },
+  {
+    "id" : 1940119,
+    "country" : {
+      "id" : "949E0260-EA33-40DF-97EF-B4397CFD66B0"
+    },
+    "name" : "Sharjah",
+    "lastUpdate" : 1607937810.349803
+  },
+  {
+    "id" : 1940330,
+    "country" : {
+      "id" : "949E0260-EA33-40DF-97EF-B4397CFD66B0"
+    },
+    "name" : "Abu Dhabi",
+    "lastUpdate" : 1607937839.3736711
+  },
+  {
+    "id" : 1940345,
+    "country" : {
+      "id" : "949E0260-EA33-40DF-97EF-B4397CFD66B0"
+    },
+    "name" : "Dubai",
+    "lastUpdate" : 1607937841.3561292
+  },
+  {
+    "id" : 1967449,
+    "country" : {
+      "id" : "FC8ECF45-D40F-4BDE-B55C-A71D6B4FB106"
+    },
+    "name" : "Haifa",
+    "lastUpdate" : 1607937855.218708
+  },
+  {
+    "id" : 1968212,
+    "country" : {
+      "id" : "FC8ECF45-D40F-4BDE-B55C-A71D6B4FB106"
+    },
+    "name" : "Tel Aviv",
+    "lastUpdate" : 1607937870.2134519
+  },
+  {
+    "id" : 1968902,
+    "country" : {
+      "id" : "16EB69D1-F4C4-4208-A21B-7D1890E0C4C0"
+    },
+    "name" : "Amman",
+    "lastUpdate" : 1607937901.24652
+  },
+  {
+    "id" : 1997422,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Chelyabinsk",
+    "lastUpdate" : 1607937915.4006519
+  },
+  {
+    "id" : 2018708,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Khabarovsk",
+    "lastUpdate" : 1607937930.359226
+  },
+  {
+    "id" : 2028717,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Krasnodar",
+    "lastUpdate" : 1607937959.367698
+  },
+  {
+    "id" : 2077746,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Samara",
+    "lastUpdate" : 1607937975.4274001
+  },
+  {
+    "id" : 2029043,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Krasnoyarsk",
+    "lastUpdate" : 1607937961.494729
+  },
+  {
+    "id" : 2108210,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Voronezh",
+    "lastUpdate" : 1607937990.3590951
+  },
+  {
+    "id" : 2112237,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Yekaterinburg",
+    "lastUpdate" : 1607938019.3454051
+  },
+  {
+    "id" : 2121040,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Irkutsk",
+    "lastUpdate" : 1607938021.3698459
+  },
+  {
+    "id" : 2121267,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Kazan",
+    "lastUpdate" : 1607938035.3744071
+  },
+  {
+    "id" : 2122265,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Moscow",
+    "lastUpdate" : 1607938050.3614302
+  },
+  {
+    "id" : 2122471,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Nizhny Novgorod",
+    "lastUpdate" : 1607938079.3669372
+  },
+  {
+    "id" : 2122541,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Novosibirsk",
+    "lastUpdate" : 1607938081.3947392
+  },
+  {
+    "id" : 2122641,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Omsk",
+    "lastUpdate" : 1607938095.360199
+  },
+  {
+    "id" : 2122814,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Perm",
+    "lastUpdate" : 1607938110.377454
+  },
+  {
+    "id" : 2123260,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Saint Petersburg",
+    "lastUpdate" : 1607938141.344955
+  },
+  {
+    "id" : 2124045,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Ufa",
+    "lastUpdate" : 1607938155.3545151
+  },
+  {
+    "id" : 2124288,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Vladivostok",
+    "lastUpdate" : 1607938170.3676438
+  },
+  {
+    "id" : 2124298,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Volgograd",
+    "lastUpdate" : 1607938199.3925309
+  },
+  {
+    "id" : 2211096,
+    "country" : {
+      "id" : "39CFCB6F-A44D-42BD-AEF0-4731005B9F13"
+    },
+    "name" : "Karachi",
+    "lastUpdate" : 1607938201.4191809
+  },
+  {
+    "id" : 2211177,
+    "country" : {
+      "id" : "39CFCB6F-A44D-42BD-AEF0-4731005B9F13"
+    },
+    "name" : "Lahore",
+    "lastUpdate" : 1607938215.379153
+  },
+  {
+    "id" : 2211269,
+    "country" : {
+      "id" : "39CFCB6F-A44D-42BD-AEF0-4731005B9F13"
+    },
+    "name" : "Multan",
+    "lastUpdate" : 1607938230.3765779
+  },
+  {
+    "id" : 2211387,
+    "country" : {
+      "id" : "39CFCB6F-A44D-42BD-AEF0-4731005B9F13"
+    },
+    "name" : "Rawalpindi",
+    "lastUpdate" : 1607938259.3848228
+  },
+  {
+    "id" : 2211574,
+    "country" : {
+      "id" : "39CFCB6F-A44D-42BD-AEF0-4731005B9F13"
+    },
+    "name" : "Faisalabad",
+    "lastUpdate" : 1607938261.410737
+  },
+  {
+    "id" : 2268284,
+    "country" : {
+      "id" : "FA383FE9-0AED-4744-98FE-0DCC7725300B"
+    },
+    "name" : "Muscat",
+    "lastUpdate" : 1607938275.261327
+  },
+  {
+    "id" : 2282863,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Nagpur",
+    "lastUpdate" : 1607938290.391567
+  },
+  {
+    "id" : 2295377,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Lucknow",
+    "lastUpdate" : 1607938319.3786268
+  },
+  {
+    "id" : 2295378,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Kanpur",
+    "lastUpdate" : 1607938321.364368
+  },
+  {
+    "id" : 2295381,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Patna",
+    "lastUpdate" : 1607938335.401207
+  },
+  {
+    "id" : 2295383,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Ranchi",
+    "lastUpdate" : 1607938350.373405
+  },
+  {
+    "id" : 2295386,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Kolkata",
+    "lastUpdate" : 1607938379.3645391
+  },
+  {
+    "id" : 2295387,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Srinagar",
+    "lastUpdate" : 1607938381.347224
+  },
+  {
+    "id" : 2295388,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Amritsar",
+    "lastUpdate" : 1607938395.3509951
+  },
+  {
+    "id" : 2295401,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Jaipur",
+    "lastUpdate" : 1607938410.3603702
+  },
+  {
+    "id" : 2295404,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Rajkot",
+    "lastUpdate" : 1607938441.368952
+  },
+  {
+    "id" : 2295405,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Surat",
+    "lastUpdate" : 1607938455.3811531
+  },
+  {
+    "id" : 2295407,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Bhopal",
+    "lastUpdate" : 1607938470.4113259
+  },
+  {
+    "id" : 2295408,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Indore",
+    "lastUpdate" : 1607938499.365566
+  },
+  {
+    "id" : 2295410,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Thane",
+    "lastUpdate" : 1607938501.387218
+  },
+  {
+    "id" : 2295411,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Mumbai",
+    "lastUpdate" : 1607938515.3654881
+  },
+  {
+    "id" : 2295412,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Pune",
+    "lastUpdate" : 1607938530.3659201
+  },
+  {
+    "id" : 2295414,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Hyderabad",
+    "lastUpdate" : 1607938559.365504
+  },
+  {
+    "id" : 2295420,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Bangalore",
+    "lastUpdate" : 1607938561.579962
+  },
+  {
+    "id" : 2295424,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Chennai",
+    "lastUpdate" : 1607938575.3767118
+  },
+  {
+    "id" : 2323778,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Mersin",
+    "lastUpdate" : 1607938590.3764958
+  },
+  {
+    "id" : 2343678,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Adana",
+    "lastUpdate" : 1607938619.3508379
+  },
+  {
+    "id" : 2343732,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Ankara",
+    "lastUpdate" : 1607938621.378
+  },
+  {
+    "id" : 2343733,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Antalya",
+    "lastUpdate" : 1607938635.3480701
+  },
+  {
+    "id" : 2343843,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Bursa",
+    "lastUpdate" : 1607938650.3647761
+  },
+  {
+    "id" : 2343932,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Diyarbakır",
+    "lastUpdate" : 1607938679.3726192
+  },
+  {
+    "id" : 2343999,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Gaziantep",
+    "lastUpdate" : 1607938695.3728771
+  },
+  {
+    "id" : 2344116,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Istanbul",
+    "lastUpdate" : 1607938710.486032
+  },
+  {
+    "id" : 2344117,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Izmir",
+    "lastUpdate" : 1607938739.3628001
+  },
+  {
+    "id" : 2344174,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Kayseri",
+    "lastUpdate" : 1607938741.386765
+  },
+  {
+    "id" : 2344210,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Konya",
+    "lastUpdate" : 1607938755.3551531
+  },
+  {
+    "id" : 2345896,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Okinawa",
+    "lastUpdate" : 1607938770.394733
+  },
+  {
+    "id" : 2345975,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Daejeon",
+    "lastUpdate" : 1607938799.3718381
+  },
+  {
+    "id" : 2348079,
+    "country" : {
+      "id" : "CBD1D8A3-B12D-4987-9F17-682FE646F39E"
+    },
+    "name" : "Auckland",
+    "lastUpdate" : 1607938801.346056
+  },
+  {
+    "id" : 2352824,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Albuquerque",
+    "lastUpdate" : 1607938815.4086161
+  },
+  {
+    "id" : 2357024,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Atlanta",
+    "lastUpdate" : 1607938830.414825
+  },
+  {
+    "id" : 2357536,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Austin",
+    "lastUpdate" : 1607938859.5049591
+  },
+  {
+    "id" : 2358820,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Baltimore",
+    "lastUpdate" : 1607938861.450186
+  },
+  {
+    "id" : 2359991,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Baton Rouge",
+    "lastUpdate" : 1607938875.401103
+  },
+  {
+    "id" : 2364559,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Birmingham",
+    "lastUpdate" : 1607938890.3863471
+  },
+  {
+    "id" : 2367105,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Boston",
+    "lastUpdate" : 1607938919.3586268
+  },
+  {
+    "id" : 2378426,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Charlotte",
+    "lastUpdate" : 1607938921.348984
+  },
+  {
+    "id" : 2380358,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Cincinnati",
+    "lastUpdate" : 1607938950.3720942
+  },
+  {
+    "id" : 2381475,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Cleveland",
+    "lastUpdate" : 1607938979.3787642
+  },
+  {
+    "id" : 2383489,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Colorado Springs",
+    "lastUpdate" : 1607938981.3578548
+  },
+  {
+    "id" : 2383660,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Columbus",
+    "lastUpdate" : 1607938995.356472
+  },
+  {
+    "id" : 2388929,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Dallas-Ft. Worth",
+    "lastUpdate" : 1607939010.373076
+  },
+  {
+    "id" : 2391279,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Denver",
+    "lastUpdate" : 1607939039.3750482
+  },
+  {
+    "id" : 2391585,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Detroit",
+    "lastUpdate" : 1607939041.3632059
+  },
+  {
+    "id" : 2397816,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "El Paso",
+    "lastUpdate" : 1607939055.3692598
+  },
+  {
+    "id" : 2407517,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Fresno",
+    "lastUpdate" : 1607939070.350352
+  },
+  {
+    "id" : 2414469,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Greensboro",
+    "lastUpdate" : 1607939099.3644741
+  },
+  {
+    "id" : 2418046,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Harrisburg",
+    "lastUpdate" : 1607939101.3700271
+  },
+  {
+    "id" : 2423945,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Honolulu",
+    "lastUpdate" : 1607939115.371912
+  },
+  {
+    "id" : 138045,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Querétaro",
+    "lastUpdate" : 1607941593.190814
+  },
+  {
+    "id" : 754542,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Bilbao",
+    "lastUpdate" : 1608006658.154566
+  },
+  {
+    "id" : 1252351,
+    "country" : {
+      "id" : "A0488F62-9F8D-4A4C-82AF-A03008C50E49"
+    },
+    "name" : "Can Tho",
+    "lastUpdate" : 1607937390.2072999
+  },
+  {
+    "id" : 1252376,
+    "country" : {
+      "id" : "A0488F62-9F8D-4A4C-82AF-A03008C50E49"
+    },
+    "name" : "Da Nang",
+    "lastUpdate" : 1607937419.2060251
+  },
+  {
+    "id" : 1253079,
+    "country" : {
+      "id" : "98D0059B-395D-4B5B-9576-237721EE6055"
+    },
+    "name" : "Algiers",
+    "lastUpdate" : 1607937435.2193861
+  },
+  {
+    "id" : 1326075,
+    "country" : {
+      "id" : "2A46CADB-CCFB-425D-ADCC-A89AB5DC4669"
+    },
+    "name" : "Accra",
+    "lastUpdate" : 1607937450.3799372
+  },
+  {
+    "id" : 1330595,
+    "country" : {
+      "id" : "2A46CADB-CCFB-425D-ADCC-A89AB5DC4669"
+    },
+    "name" : "Kumasi",
+    "lastUpdate" : 1607937479.4601421
+  },
+  {
+    "id" : 1252431,
+    "country" : {
+      "id" : "A0488F62-9F8D-4A4C-82AF-A03008C50E49"
+    },
+    "name" : "Ho Chi Minh City",
+    "lastUpdate" : 1607937421.238692
+  },
+  {
+    "id" : 2441472,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Long Beach",
+    "lastUpdate" : 1607939221.3837929
+  },
+  {
+    "id" : 2442047,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Los Angeles",
+    "lastUpdate" : 1607939235.3768921
+  },
+  {
+    "id" : 2442327,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Louisville",
+    "lastUpdate" : 1607939250.4634471
+  },
+  {
+    "id" : 2449323,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Memphis",
+    "lastUpdate" : 1607939279.3607988
+  },
+  {
+    "id" : 2449808,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Mesa",
+    "lastUpdate" : 1607939281.3558669
+  },
+  {
+    "id" : 2450022,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Miami",
+    "lastUpdate" : 1607939295.357218
+  },
+  {
+    "id" : 2451822,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Milwaukee",
+    "lastUpdate" : 1607939310.358937
+  },
+  {
+    "id" : 2452078,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Minneapolis",
+    "lastUpdate" : 1607939339.3678319
+  },
+  {
+    "id" : 2457170,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Nashville",
+    "lastUpdate" : 1607939341.6236839
+  },
+  {
+    "id" : 2458410,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "New Haven",
+    "lastUpdate" : 1607939355.380017
+  },
+  {
+    "id" : 2458833,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "New Orleans",
+    "lastUpdate" : 1607939370.352222
+  },
+  {
+    "id" : 2459115,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "New York",
+    "lastUpdate" : 1607939399.3660901
+  },
+  {
+    "id" : 2460389,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Norfolk",
+    "lastUpdate" : 1607939401.34707
+  },
+  {
+    "id" : 2464592,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Oklahoma City",
+    "lastUpdate" : 1607939415.353179
+  },
+  {
+    "id" : 2465512,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Omaha",
+    "lastUpdate" : 1607939430.346415
+  },
+  {
+    "id" : 2466256,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Orlando",
+    "lastUpdate" : 1607939459.3625011
+  },
+  {
+    "id" : 2471390,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Phoenix",
+    "lastUpdate" : 1607939475.4761291
+  },
+  {
+    "id" : 2473224,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Pittsburgh",
+    "lastUpdate" : 1607939490.3559232
+  },
+  {
+    "id" : 2475687,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Portland",
+    "lastUpdate" : 1607939519.3492231
+  },
+  {
+    "id" : 2477058,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Providence",
+    "lastUpdate" : 1607939521.350944
+  },
+  {
+    "id" : 2478307,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Raleigh",
+    "lastUpdate" : 1607939535.3504949
+  },
+  {
+    "id" : 2480894,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Richmond",
+    "lastUpdate" : 1607939550.362071
+  },
+  {
+    "id" : 2486340,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Sacramento",
+    "lastUpdate" : 1607939579.372679
+  },
+  {
+    "id" : 2486982,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "St. Louis",
+    "lastUpdate" : 1607939581.3598289
+  },
+  {
+    "id" : 2487610,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Salt Lake City",
+    "lastUpdate" : 1607939595.594183
+  },
+  {
+    "id" : 2487796,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "San Antonio",
+    "lastUpdate" : 1607939610.3660131
+  },
+  {
+    "id" : 2487889,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "San Diego",
+    "lastUpdate" : 1607939639.3659461
+  },
+  {
+    "id" : 2487956,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "San Francisco",
+    "lastUpdate" : 1607939641.3651209
+  },
+  {
+    "id" : 2488042,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "San Jose",
+    "lastUpdate" : 1607939655.3680282
+  },
+  {
+    "id" : 2490383,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Seattle",
+    "lastUpdate" : 1607939670.3706069
+  },
+  {
+    "id" : 2503713,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Tallahassee",
+    "lastUpdate" : 1607939699.372086
+  },
+  {
+    "id" : 2503863,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Tampa",
+    "lastUpdate" : 1607939701.367919
+  },
+  {
+    "id" : 2508428,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Tucson",
+    "lastUpdate" : 1607939715.363487
+  },
+  {
+    "id" : 2512636,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Virginia Beach",
+    "lastUpdate" : 1607939730.367955
+  },
+  {
+    "id" : 2514815,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Washington",
+    "lastUpdate" : 1607939759.3735881
+  },
+  {
+    "id" : 15015370,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Osaka",
+    "lastUpdate" : 1607939761.3648229
+  },
+  {
+    "id" : 20070458,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Delhi",
+    "lastUpdate" : 1607939790.3629708
+  },
+  {
+    "id" : 23424738,
+    "country" : {
+      "id" : "949E0260-EA33-40DF-97EF-B4397CFD66B0"
+    },
+    "name" : "United Arab Emirates",
+    "lastUpdate" : 1607939819.3464851
+  },
+  {
+    "id" : 23424740,
+    "country" : {
+      "id" : "98D0059B-395D-4B5B-9576-237721EE6055"
+    },
+    "name" : "Algeria",
+    "lastUpdate" : 1607939821.2351351
+  },
+  {
+    "id" : 23424747,
+    "country" : {
+      "id" : "FC5B5B53-952F-410B-8FC4-1B260009C8A5"
+    },
+    "name" : "Argentina",
+    "lastUpdate" : 1607939835.500838
+  },
+  {
+    "id" : 23424748,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Australia",
+    "lastUpdate" : 1607939850.3595948
+  },
+  {
+    "id" : 23424750,
+    "country" : {
+      "id" : "24AA6BF8-5B3C-4C24-88A6-B04BEEDD742A"
+    },
+    "name" : "Austria",
+    "lastUpdate" : 1607939879.4694219
+  },
+  {
+    "id" : 23424753,
+    "country" : {
+      "id" : "6BC3C3C4-B51F-4A9A-8ED9-FB133E3C26D4"
+    },
+    "name" : "Bahrain",
+    "lastUpdate" : 1607939881.2397299
+  },
+  {
+    "id" : 23424757,
+    "country" : {
+      "id" : "9506BE34-54E4-4028-83AC-070D78171D31"
+    },
+    "name" : "Belgium",
+    "lastUpdate" : 1607939895.4515328
+  },
+  {
+    "id" : 23424765,
+    "country" : {
+      "id" : "973534B8-45C6-4888-A887-20C88F977C51"
+    },
+    "name" : "Belarus",
+    "lastUpdate" : 1607939910.2443562
+  },
+  {
+    "id" : 23424768,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Brazil",
+    "lastUpdate" : 1607939939.383455
+  },
+  {
+    "id" : 23424775,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Canada",
+    "lastUpdate" : 1607939941.3622341
+  },
+  {
+    "id" : 23424782,
+    "country" : {
+      "id" : "819F345D-9F53-4894-A331-5549E2AEA354"
+    },
+    "name" : "Chile",
+    "lastUpdate" : 1607939955.4058599
+  },
+  {
+    "id" : 23424787,
+    "country" : {
+      "id" : "9FC261FA-5472-4595-A75D-9C0260C87B20"
+    },
+    "name" : "Colombia",
+    "lastUpdate" : 1607939970.4587259
+  },
+  {
+    "id" : 23424796,
+    "country" : {
+      "id" : "00478370-D149-4106-BC2C-A94430B57A10"
+    },
+    "name" : "Denmark",
+    "lastUpdate" : 1607939999.430243
+  },
+  {
+    "id" : 23424801,
+    "country" : {
+      "id" : "9F766C35-F39D-4FF9-BD7D-DF2B783CC4F6"
+    },
+    "name" : "Ecuador",
+    "lastUpdate" : 1607940015.3054562
+  },
+  {
+    "id" : 23424802,
+    "country" : {
+      "id" : "6776F561-8B0D-4E75-B7AA-91276957B321"
+    },
+    "name" : "Egypt",
+    "lastUpdate" : 1607940030.488795
+  },
+  {
+    "id" : 23424803,
+    "country" : {
+      "id" : "F3D1C26D-2175-4CB3-9AB9-884C5E6ED5AA"
+    },
+    "name" : "Ireland",
+    "lastUpdate" : 1607940059.388608
+  },
+  {
+    "id" : 23424819,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "France",
+    "lastUpdate" : 1607940061.3888359
+  },
+  {
+    "id" : 23424824,
+    "country" : {
+      "id" : "2A46CADB-CCFB-425D-ADCC-A89AB5DC4669"
+    },
+    "name" : "Ghana",
+    "lastUpdate" : 1607940075.450325
+  },
+  {
+    "id" : 23424829,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Germany",
+    "lastUpdate" : 1607940090.3799381
+  },
+  {
+    "id" : 23424833,
+    "country" : {
+      "id" : "0A8BEC49-D097-4370-BFE0-299870B4BF79"
+    },
+    "name" : "Greece",
+    "lastUpdate" : 1607940119.4933538
+  },
+  {
+    "id" : 23424834,
+    "country" : {
+      "id" : "E9855095-8E24-4BD6-8116-D221BDC75538"
+    },
+    "name" : "Guatemala",
+    "lastUpdate" : 1607940121.2709541
+  },
+  {
+    "id" : 23424846,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Indonesia",
+    "lastUpdate" : 1607940135.3817329
+  },
+  {
+    "id" : 23424848,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "India",
+    "lastUpdate" : 1607940150.3576488
+  },
+  {
+    "id" : 23424852,
+    "country" : {
+      "id" : "FC8ECF45-D40F-4BDE-B55C-A71D6B4FB106"
+    },
+    "name" : "Israel",
+    "lastUpdate" : 1607940179.259115
+  },
+  {
+    "id" : 23424853,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Italy",
+    "lastUpdate" : 1607940181.4061551
+  },
+  {
+    "id" : 23424856,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Japan",
+    "lastUpdate" : 1607940195.7647219
+  },
+  {
+    "id" : 23424860,
+    "country" : {
+      "id" : "16EB69D1-F4C4-4208-A21B-7D1890E0C4C0"
+    },
+    "name" : "Jordan",
+    "lastUpdate" : 1607940210.3758621
+  },
+  {
+    "id" : 23424863,
+    "country" : {
+      "id" : "75DD80AE-8048-4731-B840-5FF88294C723"
+    },
+    "name" : "Kenya",
+    "lastUpdate" : 1607940239.4653878
+  },
+  {
+    "id" : 23424868,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Korea",
+    "lastUpdate" : 1607940241.382215
+  },
+  {
+    "id" : 23424870,
+    "country" : {
+      "id" : "DEB9BB35-36C2-4E00-B06E-797C32E7DA1D"
+    },
+    "name" : "Kuwait",
+    "lastUpdate" : 1607940255.3639121
+  },
+  {
+    "id" : 23424873,
+    "country" : {
+      "id" : "B9442753-EA60-4C69-96C3-EB2304C8BAA0"
+    },
+    "name" : "Lebanon",
+    "lastUpdate" : 1607940270.306468
+  },
+  {
+    "id" : 23424874,
+    "country" : {
+      "id" : "F54B8FA8-2406-4139-A606-4E6648B3C72F"
+    },
+    "name" : "Latvia",
+    "lastUpdate" : 1607940299.2513618
+  },
+  {
+    "id" : 23424898,
+    "country" : {
+      "id" : "FA383FE9-0AED-4744-98FE-0DCC7725300B"
+    },
+    "name" : "Oman",
+    "lastUpdate" : 1607940301.2770839
+  },
+  {
+    "id" : 23424901,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Malaysia",
+    "lastUpdate" : 1607940330.4113331
+  },
+  {
+    "id" : 23424908,
+    "country" : {
+      "id" : "84CEEC4C-B1F3-45D0-9133-8402DE3891C0"
+    },
+    "name" : "Nigeria",
+    "lastUpdate" : 1607940359.41557
+  },
+  {
+    "id" : 23424909,
+    "country" : {
+      "id" : "0C615DC2-2BD5-4CAD-BB4A-DD9E6DA50503"
+    },
+    "name" : "Netherlands",
+    "lastUpdate" : 1607940361.417417
+  },
+  {
+    "id" : 23424910,
+    "country" : {
+      "id" : "35370178-5FC4-4D12-B382-CA32D0273086"
+    },
+    "name" : "Norway",
+    "lastUpdate" : 1607940375.3453541
+  },
+  {
+    "id" : 23424916,
+    "country" : {
+      "id" : "CBD1D8A3-B12D-4987-9F17-682FE646F39E"
+    },
+    "name" : "New Zealand",
+    "lastUpdate" : 1607940390.3202939
+  },
+  {
+    "id" : 23424919,
+    "country" : {
+      "id" : "4F81A513-5D7E-4ABD-A3A6-C46F0A2D30FE"
+    },
+    "name" : "Peru",
+    "lastUpdate" : 1607940419.3547668
+  },
+  {
+    "id" : 23424922,
+    "country" : {
+      "id" : "39CFCB6F-A44D-42BD-AEF0-4731005B9F13"
+    },
+    "name" : "Pakistan",
+    "lastUpdate" : 1607940421.3738689
+  },
+  {
+    "id" : 23424923,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Poland",
+    "lastUpdate" : 1607940435.397748
+  },
+  {
+    "id" : 23424924,
+    "country" : {
+      "id" : "1BD0A85E-229D-4789-A8D7-1ED561EB5BA6"
+    },
+    "name" : "Panama",
+    "lastUpdate" : 1607940450.290715
+  },
+  {
+    "id" : 23424925,
+    "country" : {
+      "id" : "3ABA79F5-4CC0-402C-860F-7DC421BA0EDC"
+    },
+    "name" : "Portugal",
+    "lastUpdate" : 1607940479.42169
+  },
+  {
+    "id" : 23424930,
+    "country" : {
+      "id" : "0E3821AF-0263-4FF8-A5BD-0926A10194F6"
+    },
+    "name" : "Qatar",
+    "lastUpdate" : 1607940481.2670569
+  },
+  {
+    "id" : 23424934,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Philippines",
+    "lastUpdate" : 1607940495.372314
+  },
+  {
+    "id" : 23424935,
+    "country" : {
+      "id" : "9EA5A56B-985F-47B8-8532-BC308EE58E58"
+    },
+    "name" : "Puerto Rico",
+    "lastUpdate" : 1607940510.3740029
+  },
+  {
+    "id" : 23424936,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Russia",
+    "lastUpdate" : 1607940539.3839159
+  },
+  {
+    "id" : 23424942,
+    "country" : {
+      "id" : "F7ED3A1A-0071-4D13-98AF-BB7D151652F2"
+    },
+    "name" : "South Africa",
+    "lastUpdate" : 1607940555.434701
+  },
+  {
+    "id" : 23424948,
+    "country" : {
+      "id" : "509282A9-6BD5-4BE8-B4B7-F63F9EDB670C"
+    },
+    "name" : "Singapore",
+    "lastUpdate" : 1607940570.3279738
+  },
+  {
+    "id" : 23424950,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Spain",
+    "lastUpdate" : 1607940599.392148
+  },
+  {
+    "id" : 23424954,
+    "country" : {
+      "id" : "1D2F33AD-0E26-48B9-BE22-50AEC5DF8D62"
+    },
+    "name" : "Sweden",
+    "lastUpdate" : 1607940601.3941579
+  },
+  {
+    "id" : 23424957,
+    "country" : {
+      "id" : "F85FD42D-FFF2-4A0B-B26B-83B2FD454CEF"
+    },
+    "name" : "Switzerland",
+    "lastUpdate" : 1607940615.377811
+  },
+  {
+    "id" : 23424960,
+    "country" : {
+      "id" : "3306AD4B-4F43-41DA-A1D3-A35200E0CED0"
+    },
+    "name" : "Thailand",
+    "lastUpdate" : 1607940630.3753791
+  },
+  {
+    "id" : 23424969,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Turkey",
+    "lastUpdate" : 1607940659.3517621
+  },
+  {
+    "id" : 23424975,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "United Kingdom",
+    "lastUpdate" : 1607940661.385941
+  },
+  {
+    "id" : 23424976,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Ukraine",
+    "lastUpdate" : 1607940675.2968731
+  },
+  {
+    "id" : 23424977,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "United States",
+    "lastUpdate" : 1607940690.3533258
+  },
+  {
+    "id" : 23424982,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Venezuela",
+    "lastUpdate" : 1607940719.4865279
+  },
+  {
+    "id" : 23424984,
+    "country" : {
+      "id" : "A0488F62-9F8D-4A4C-82AF-A03008C50E49"
+    },
+    "name" : "Vietnam",
+    "lastUpdate" : 1607940721.2680311
+  },
+  {
+    "id" : 56013632,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Petaling",
+    "lastUpdate" : 1607940735.349627
+  },
+  {
+    "id" : 56013645,
+    "country" : {
+      "id" : "F3BA4319-BF36-4859-9AC7-7F6189946BC1"
+    },
+    "name" : "Hulu Langat",
+    "lastUpdate" : 1607940750.5037951
+  },
+  {
+    "id" : 56120136,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Ahsa",
+    "lastUpdate" : 1607940779.358546
+  },
+  {
+    "id" : 90036018,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Okayama",
+    "lastUpdate" : 1607940781.3783011
+  },
+  {
+    "id" : 1,
+    "country" : {
+      "id" : null
+    },
+    "name" : "Worldwide",
+    "lastUpdate" : 1607940795.360178
+  },
+  {
+    "id" : 2972,
+    "country" : {
+      "id" : "5F3CAAD6-7C5A-4EF5-826D-F033DD749E9E"
+    },
+    "name" : "Winnipeg",
+    "lastUpdate" : 1607940810.3936028
+  },
+  {
+    "id" : 21125,
+    "country" : {
+      "id" : "586864C8-23AB-4131-824B-DEFA6842F962"
+    },
+    "name" : "Glasgow",
+    "lastUpdate" : 1607941079.3550169
+  },
+  {
+    "id" : 134395,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Naucalpan de Juárez",
+    "lastUpdate" : 1607941575.3334131
+  },
+  {
+    "id" : 137612,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Puebla",
+    "lastUpdate" : 1607941619.332346
+  },
+  {
+    "id" : 466862,
+    "country" : {
+      "id" : "FC5B5B53-952F-410B-8FC4-1B260009C8A5"
+    },
+    "name" : "Rosario",
+    "lastUpdate" : 1607976481.361254
+  },
+  {
+    "id" : 2427032,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Indianapolis",
+    "lastUpdate" : 1607939159.528549
+  },
+  {
+    "id" : 2430683,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Kansas City",
+    "lastUpdate" : 1607939190.3569679
+  },
+  {
+    "id" : 2436704,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Las Vegas",
+    "lastUpdate" : 1607939219.3544731
+  },
+  {
+    "id" : 2428184,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Jackson",
+    "lastUpdate" : 1607939161.611557
+  },
+  {
+    "id" : 1236594,
+    "country" : {
+      "id" : "A0488F62-9F8D-4A4C-82AF-A03008C50E49"
+    },
+    "name" : "Hanoi",
+    "lastUpdate" : 1607937361.252219
+  },
+  {
+    "id" : 395275,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Ciudad Guayana",
+    "lastUpdate" : 1607956187.9309611
+  },
+  {
+    "id" : 610264,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Marseille",
+    "lastUpdate" : 1607976990.7167501
+  },
+  {
+    "id" : 779063,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Zaragoza",
+    "lastUpdate" : 1608021636.260668
+  },
+  {
+    "id" : 1047378,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Jakarta",
+    "lastUpdate" : 1608022470.557477
+  },
+  {
+    "id" : 1048059,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Palembang",
+    "lastUpdate" : 1608022530.3542309
+  },
+  {
+    "id" : 1048536,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Tangerang",
+    "lastUpdate" : 1608022590.474256
+  },
+  {
+    "id" : 1098081,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Perth",
+    "lastUpdate" : 1608022650.41856
+  },
+  {
+    "id" : 1100661,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Brisbane",
+    "lastUpdate" : 1608022710.368566
+  },
+  {
+    "id" : 1101597,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Darwin",
+    "lastUpdate" : 1608022770.3724341
+  },
+  {
+    "id" : 1105779,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Sydney",
+    "lastUpdate" : 1608022830.369417
+  },
+  {
+    "id" : 1116753,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Saitama",
+    "lastUpdate" : 1608022890.3786731
+  },
+  {
+    "id" : 455822,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Curitiba",
+    "lastUpdate" : 1607976107.8369942
+  },
+  {
+    "id" : 455824,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Recife",
+    "lastUpdate" : 1607976150.365027
+  },
+  {
+    "id" : 455826,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Salvador",
+    "lastUpdate" : 1607976210.4310222
+  },
+  {
+    "id" : 455828,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Campinas",
+    "lastUpdate" : 1607976270.3825622
+  },
+  {
+    "id" : 455831,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Goiânia",
+    "lastUpdate" : 1607976330.445662
+  },
+  {
+    "id" : 455834,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "São Luís",
+    "lastUpdate" : 1607976390.4569211
+  },
+  {
+    "id" : 466861,
+    "country" : {
+      "id" : "FC5B5B53-952F-410B-8FC4-1B260009C8A5"
+    },
+    "name" : "Córdoba",
+    "lastUpdate" : 1607976450.4302511
+  },
+  {
+    "id" : 468382,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Barquisimeto",
+    "lastUpdate" : 1607976510.3870699
+  },
+  {
+    "id" : 468739,
+    "country" : {
+      "id" : "FC5B5B53-952F-410B-8FC4-1B260009C8A5"
+    },
+    "name" : "Buenos Aires",
+    "lastUpdate" : 1607976570.4594631
+  },
+  {
+    "id" : 502075,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Kraków",
+    "lastUpdate" : 1607976630.3932471
+  },
+  {
+    "id" : 514048,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Poznań",
+    "lastUpdate" : 1607976690.4036379
+  },
+  {
+    "id" : 526363,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Wroclaw",
+    "lastUpdate" : 1607976750.445435
+  },
+  {
+    "id" : 560472,
+    "country" : {
+      "id" : "F3D1C26D-2175-4CB3-9AB9-884C5E6ED5AA"
+    },
+    "name" : "Cork",
+    "lastUpdate" : 1607976810.6902599
+  },
+  {
+    "id" : 560912,
+    "country" : {
+      "id" : "F3D1C26D-2175-4CB3-9AB9-884C5E6ED5AA"
+    },
+    "name" : "Galway",
+    "lastUpdate" : 1607976870.4340281
+  },
+  {
+    "id" : 608105,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Lille",
+    "lastUpdate" : 1607976930.460077
+  },
+  {
+    "id" : 613858,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Nantes",
+    "lastUpdate" : 1607977050.4207411
+  },
+  {
+    "id" : 619163,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Rennes",
+    "lastUpdate" : 1607977110.3775749
+  },
+  {
+    "id" : 628886,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Toulouse",
+    "lastUpdate" : 1607977170.3715639
+  },
+  {
+    "id" : 638242,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Berlin",
+    "lastUpdate" : 1607977201.4193611
+  },
+  {
+    "id" : 645686,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Dresden",
+    "lastUpdate" : 1607977290.4589901
+  },
+  {
+    "id" : 648820,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Essen",
+    "lastUpdate" : 1607977350.4263411
+  },
+  {
+    "id" : 656958,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Hamburg",
+    "lastUpdate" : 1607977410.3891931
+  },
+  {
+    "id" : 671072,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Leipzig",
+    "lastUpdate" : 1607977470.362798
+  },
+  {
+    "id" : 676757,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Munich",
+    "lastUpdate" : 1607977501.3958158
+  },
+  {
+    "id" : 698064,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Stuttgart",
+    "lastUpdate" : 1607977530.3699341
+  },
+  {
+    "id" : 716085,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Genoa",
+    "lastUpdate" : 1607977590.3556199
+  },
+  {
+    "id" : 726874,
+    "country" : {
+      "id" : "0C615DC2-2BD5-4CAD-BB4A-DD9E6DA50503"
+    },
+    "name" : "Den Haag",
+    "lastUpdate" : 1607987785.8757401
+  },
+  {
+    "id" : 727232,
+    "country" : {
+      "id" : "0C615DC2-2BD5-4CAD-BB4A-DD9E6DA50503"
+    },
+    "name" : "Amsterdam",
+    "lastUpdate" : 1607992149.1094642
+  },
+  {
+    "id" : 733075,
+    "country" : {
+      "id" : "0C615DC2-2BD5-4CAD-BB4A-DD9E6DA50503"
+    },
+    "name" : "Rotterdam",
+    "lastUpdate" : 1607999402.884912
+  },
+  {
+    "id" : 766273,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Madrid",
+    "lastUpdate" : 1608006686.797725
+  },
+  {
+    "id" : 766356,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Malaga",
+    "lastUpdate" : 1608013917.345077
+  },
+  {
+    "id" : 783058,
+    "country" : {
+      "id" : "F85FD42D-FFF2-4A0B-B26B-83B2FD454CEF"
+    },
+    "name" : "Lausanne",
+    "lastUpdate" : 1608021690.3827472
+  },
+  {
+    "id" : 824382,
+    "country" : {
+      "id" : "973534B8-45C6-4888-A887-20C88F977C51"
+    },
+    "name" : "Brest",
+    "lastUpdate" : 1608021750.3292429
+  },
+  {
+    "id" : 825978,
+    "country" : {
+      "id" : "973534B8-45C6-4888-A887-20C88F977C51"
+    },
+    "name" : "Gomel",
+    "lastUpdate" : 1608021810.212141
+  },
+  {
+    "id" : 854823,
+    "country" : {
+      "id" : "F54B8FA8-2406-4139-A606-4E6648B3C72F"
+    },
+    "name" : "Riga",
+    "lastUpdate" : 1608021870.2756472
+  },
+  {
+    "id" : 862592,
+    "country" : {
+      "id" : "35370178-5FC4-4D12-B382-CA32D0273086"
+    },
+    "name" : "Oslo",
+    "lastUpdate" : 1608021930.3005681
+  },
+  {
+    "id" : 919163,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Donetsk",
+    "lastUpdate" : 1608022050.209748
+  },
+  {
+    "id" : 924938,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Kyiv",
+    "lastUpdate" : 1608022110.2273412
+  },
+  {
+    "id" : 929398,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Odesa",
+    "lastUpdate" : 1608022170.2228699
+  },
+  {
+    "id" : 946738,
+    "country" : {
+      "id" : "0A8BEC49-D097-4370-BFE0-299870B4BF79"
+    },
+    "name" : "Athens",
+    "lastUpdate" : 1608022230.228884
+  },
+  {
+    "id" : 1030077,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Bekasi",
+    "lastUpdate" : 1608022290.428575
+  },
+  {
+    "id" : 1040779,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Pekanbaru",
+    "lastUpdate" : 1608022350.3602939
+  },
+  {
+    "id" : 1046138,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Makassar",
+    "lastUpdate" : 1608022410.3531981
+  },
+  {
+    "id" : 1047180,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Bandung",
+    "lastUpdate" : 1608022441.363559
+  },
+  {
+    "id" : 1048324,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Semarang",
+    "lastUpdate" : 1608022561.368259
+  },
+  {
+    "id" : 1062617,
+    "country" : {
+      "id" : "509282A9-6BD5-4BE8-B4B7-F63F9EDB670C"
+    },
+    "name" : "Singapore",
+    "lastUpdate" : 1608022621.2276621
+  },
+  {
+    "id" : 1099805,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Adelaide",
+    "lastUpdate" : 1608022681.3709331
+  },
+  {
+    "id" : 455823,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Porto Alegre",
+    "lastUpdate" : 1607976121.418736
+  },
+  {
+    "id" : 455825,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Rio de Janeiro",
+    "lastUpdate" : 1607976181.473228
+  },
+  {
+    "id" : 455827,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "São Paulo",
+    "lastUpdate" : 1607976241.419229
+  },
+  {
+    "id" : 455830,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Fortaleza",
+    "lastUpdate" : 1607976301.4424438
+  },
+  {
+    "id" : 455833,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Manaus",
+    "lastUpdate" : 1607976361.4363389
+  },
+  {
+    "id" : 455867,
+    "country" : {
+      "id" : "890D3B92-F022-478A-90BB-643B71DADD7D"
+    },
+    "name" : "Guarulhos",
+    "lastUpdate" : 1607976421.3902049
+  },
+  {
+    "id" : 468384,
+    "country" : {
+      "id" : "EF5CA5EF-2B36-462B-8B6D-0A041224B951"
+    },
+    "name" : "Maturín",
+    "lastUpdate" : 1607976541.3601451
+  },
+  {
+    "id" : 493417,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Gdańsk",
+    "lastUpdate" : 1607976601.4309859
+  },
+  {
+    "id" : 505120,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Lodz",
+    "lastUpdate" : 1607976662.408922
+  },
+  {
+    "id" : 523920,
+    "country" : {
+      "id" : "0AAF597F-E409-4D35-BB33-B835FF9ADDEB"
+    },
+    "name" : "Warsaw",
+    "lastUpdate" : 1607976721.3672819
+  },
+  {
+    "id" : 551801,
+    "country" : {
+      "id" : "24AA6BF8-5B3C-4C24-88A6-B04BEEDD742A"
+    },
+    "name" : "Vienna",
+    "lastUpdate" : 1607976781.499243
+  },
+  {
+    "id" : 560743,
+    "country" : {
+      "id" : "F3D1C26D-2175-4CB3-9AB9-884C5E6ED5AA"
+    },
+    "name" : "Dublin",
+    "lastUpdate" : 1607976841.4564281
+  },
+  {
+    "id" : 580778,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Bordeaux",
+    "lastUpdate" : 1607976901.4987299
+  },
+  {
+    "id" : 609125,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Lyon",
+    "lastUpdate" : 1607976980.9759979
+  },
+  {
+    "id" : 612977,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Montpellier",
+    "lastUpdate" : 1607977021.430697
+  },
+  {
+    "id" : 615702,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Paris",
+    "lastUpdate" : 1607977081.3512568
+  },
+  {
+    "id" : 627791,
+    "country" : {
+      "id" : "1E1BA866-8332-4EC0-9C83-8E1A588B207B"
+    },
+    "name" : "Strasbourg",
+    "lastUpdate" : 1607977141.3713489
+  },
+  {
+    "id" : 645458,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Dortmund",
+    "lastUpdate" : 1607977261.3484221
+  },
+  {
+    "id" : 646099,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Dusseldorf",
+    "lastUpdate" : 1607977321.4448099
+  },
+  {
+    "id" : 650272,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Frankfurt",
+    "lastUpdate" : 1607977381.353755
+  },
+  {
+    "id" : 667931,
+    "country" : {
+      "id" : "EE09717E-A7A1-4B42-A0F2-39E70094146E"
+    },
+    "name" : "Cologne",
+    "lastUpdate" : 1607977441.400598
+  },
+  {
+    "id" : 711080,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Bologna",
+    "lastUpdate" : 1607977561.467761
+  },
+  {
+    "id" : 718345,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Milan",
+    "lastUpdate" : 1607977621.452019
+  },
+  {
+    "id" : 725003,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Turin",
+    "lastUpdate" : 1607987762.297457
+  },
+  {
+    "id" : 764814,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Las Palmas",
+    "lastUpdate" : 1608006664.3368158
+  },
+  {
+    "id" : 768026,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Murcia",
+    "lastUpdate" : 1608013924.116713
+  },
+  {
+    "id" : 774508,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Seville",
+    "lastUpdate" : 1608021185.2203221
+  },
+  {
+    "id" : 776688,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Valencia",
+    "lastUpdate" : 1608021634.3737888
+  },
+  {
+    "id" : 782538,
+    "country" : {
+      "id" : "F85FD42D-FFF2-4A0B-B26B-83B2FD454CEF"
+    },
+    "name" : "Geneva",
+    "lastUpdate" : 1608021661.407479
+  },
+  {
+    "id" : 784794,
+    "country" : {
+      "id" : "F85FD42D-FFF2-4A0B-B26B-83B2FD454CEF"
+    },
+    "name" : "Zurich",
+    "lastUpdate" : 1608021721.35586
+  },
+  {
+    "id" : 825848,
+    "country" : {
+      "id" : "973534B8-45C6-4888-A887-20C88F977C51"
+    },
+    "name" : "Grodno",
+    "lastUpdate" : 1608021781.222151
+  },
+  {
+    "id" : 834463,
+    "country" : {
+      "id" : "973534B8-45C6-4888-A887-20C88F977C51"
+    },
+    "name" : "Minsk",
+    "lastUpdate" : 1608021841.2118912
+  },
+  {
+    "id" : 857105,
+    "country" : {
+      "id" : "35370178-5FC4-4D12-B382-CA32D0273086"
+    },
+    "name" : "Bergen",
+    "lastUpdate" : 1608021901.3197851
+  },
+  {
+    "id" : 890869,
+    "country" : {
+      "id" : "1D2F33AD-0E26-48B9-BE22-50AEC5DF8D62"
+    },
+    "name" : "Gothenburg",
+    "lastUpdate" : 1608021961.4192371
+  },
+  {
+    "id" : 906057,
+    "country" : {
+      "id" : "1D2F33AD-0E26-48B9-BE22-50AEC5DF8D62"
+    },
+    "name" : "Stockholm",
+    "lastUpdate" : 1608021990.4658589
+  },
+  {
+    "id" : 918981,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Dnipropetrovsk",
+    "lastUpdate" : 1608022021.221801
+  },
+  {
+    "id" : 922137,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Kharkiv",
+    "lastUpdate" : 1608022081.2177238
+  },
+  {
+    "id" : 924943,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Lviv",
+    "lastUpdate" : 1608022141.221344
+  },
+  {
+    "id" : 939628,
+    "country" : {
+      "id" : "CB7C87F6-2CCC-4738-8A3C-8E81155118CD"
+    },
+    "name" : "Zaporozhye",
+    "lastUpdate" : 1608022201.223789
+  },
+  {
+    "id" : 963291,
+    "country" : {
+      "id" : "0A8BEC49-D097-4370-BFE0-299870B4BF79"
+    },
+    "name" : "Thessaloniki",
+    "lastUpdate" : 1608022261.4129901
+  },
+  {
+    "id" : 1032539,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Depok",
+    "lastUpdate" : 1608022321.3694749
+  },
+  {
+    "id" : 1044316,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Surabaya",
+    "lastUpdate" : 1608022381.5363588
+  },
+  {
+    "id" : 1100968,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Canberra",
+    "lastUpdate" : 1608022741.5598788
+  },
+  {
+    "id" : 1103816,
+    "country" : {
+      "id" : "31997BD8-2647-4D87-B480-A39A15F36115"
+    },
+    "name" : "Melbourne",
+    "lastUpdate" : 1608022801.3677001
+  },
+  {
+    "id" : 1110809,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Kitakyushu",
+    "lastUpdate" : 1608022861.4424729
+  },
+  {
+    "id" : 1047908,
+    "country" : {
+      "id" : "7EAE9436-1E19-47D1-9FCE-681C595B63B8"
+    },
+    "name" : "Medan",
+    "lastUpdate" : 1608022501.3561702
+  },
+  {
+    "id" : 719258,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Naples",
+    "lastUpdate" : 1607979480.5268788
+  },
+  {
+    "id" : 719846,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Palermo",
+    "lastUpdate" : 1607979510.558275
+  },
+  {
+    "id" : 721943,
+    "country" : {
+      "id" : "B6A00E8C-C099-4391-945A-2110CD8725AF"
+    },
+    "name" : "Rome",
+    "lastUpdate" : 1607980538.5814371
+  },
+  {
+    "id" : 734047,
+    "country" : {
+      "id" : "0C615DC2-2BD5-4CAD-BB4A-DD9E6DA50503"
+    },
+    "name" : "Utrecht",
+    "lastUpdate" : 1607999404.6585169
+  },
+  {
+    "id" : 769293,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Palma",
+    "lastUpdate" : 1608021177.4985819
+  },
+  {
+    "id" : 15015372,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Kyoto",
+    "lastUpdate" : 1607939775.4418421
+  },
+  {
+    "id" : 23424800,
+    "country" : {
+      "id" : "753D0D8C-F9E5-450E-9417-BE90653CB150"
+    },
+    "name" : "Dominican Republic",
+    "lastUpdate" : 1607940001.2625051
+  },
+  {
+    "id" : 23424900,
+    "country" : {
+      "id" : "943D6B0E-6468-4CAD-8247-14DBFDC6E237"
+    },
+    "name" : "Mexico",
+    "lastUpdate" : 1607940315.356375
+  },
+  {
+    "id" : 23424938,
+    "country" : {
+      "id" : "E6B22870-E20C-4A2E-945E-DA321B7B6F76"
+    },
+    "name" : "Saudi Arabia",
+    "lastUpdate" : 1607940541.3858628
+  },
+  {
+    "id" : 76456,
+    "country" : {
+      "id" : "753D0D8C-F9E5-450E-9417-BE90653CB150"
+    },
+    "name" : "Santo Domingo",
+    "lastUpdate" : 1607941321.2691801
+  },
+  {
+    "id" : 753692,
+    "country" : {
+      "id" : "135FD0BA-1DF0-4D8F-B501-9E94F1B34132"
+    },
+    "name" : "Barcelona",
+    "lastUpdate" : 1607999431.388221
+  },
+  {
+    "id" : 1117227,
+    "country" : {
+      "id" : "DC59D4A7-67FF-4902-82F5-5E079754FBB3"
+    },
+    "name" : "Hiroshima",
+    "lastUpdate" : 1607936730.359746
+  },
+  {
+    "id" : 1132449,
+    "country" : {
+      "id" : "EEA6EF2B-D117-4905-B427-627074A0BD09"
+    },
+    "name" : "Changwon",
+    "lastUpdate" : 1607936999.346957
+  },
+  {
+    "id" : 1198785,
+    "country" : {
+      "id" : "86F704ED-9179-469E-B197-925B7DB36C8D"
+    },
+    "name" : "Antipolo",
+    "lastUpdate" : 1607937241.354774
+  },
+  {
+    "id" : 1225448,
+    "country" : {
+      "id" : "3306AD4B-4F43-41DA-A1D3-A35200E0CED0"
+    },
+    "name" : "Bangkok",
+    "lastUpdate" : 1607937359.592685
+  },
+  {
+    "id" : 1236690,
+    "country" : {
+      "id" : "A0488F62-9F8D-4A4C-82AF-A03008C50E49"
+    },
+    "name" : "Hai Phong",
+    "lastUpdate" : 1607937375.2518101
+  },
+  {
+    "id" : 1528488,
+    "country" : {
+      "id" : "75DD80AE-8048-4731-B840-5FF88294C723"
+    },
+    "name" : "Nairobi",
+    "lastUpdate" : 1607937630.3611431
+  },
+  {
+    "id" : 1968222,
+    "country" : {
+      "id" : "FC8ECF45-D40F-4BDE-B55C-A71D6B4FB106"
+    },
+    "name" : "Jerusalem",
+    "lastUpdate" : 1607937899.2072248
+  },
+  {
+    "id" : 2123177,
+    "country" : {
+      "id" : "DFDA6E8C-BA47-4EA6-903A-F1940ACD15CD"
+    },
+    "name" : "Rostov-on-Don",
+    "lastUpdate" : 1607938139.3558731
+  },
+  {
+    "id" : 2295402,
+    "country" : {
+      "id" : "984F7213-6B34-428E-9964-6593D3B45D69"
+    },
+    "name" : "Ahmedabad",
+    "lastUpdate" : 1607938439.388382
+  },
+  {
+    "id" : 2343980,
+    "country" : {
+      "id" : "55179E34-5A26-4241-812F-F84B0A4333B7"
+    },
+    "name" : "Eskişehir",
+    "lastUpdate" : 1607938681.369065
+  },
+  {
+    "id" : 2379574,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Chicago",
+    "lastUpdate" : 1607938935.360739
+  },
+  {
+    "id" : 2424766,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Houston",
+    "lastUpdate" : 1607939130.3521609
+  },
+  {
+    "id" : 2428344,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Jacksonville",
+    "lastUpdate" : 1607939175.3893981
+  },
+  {
+    "id" : 2471217,
+    "country" : {
+      "id" : "2B80E548-704C-4979-9BDC-0370D8AB8A7A"
+    },
+    "name" : "Philadelphia",
+    "lastUpdate" : 1607939461.4846759
+  }
+]

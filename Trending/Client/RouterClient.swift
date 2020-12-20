@@ -37,6 +37,14 @@ enum RouterError: Error {
     case invalidURL
 }
 
+struct RouteRequest {
+    
+    var name: String
+    var pathSubstitutions: [String: String] = [:]
+    var querySubstitutions: [String: String] = [:]
+    var stubPath: String?
+}
+
 final class RouterClient: NetworkClient, ObservableObject {
     
     let baseURL: String
@@ -44,8 +52,10 @@ final class RouterClient: NetworkClient, ObservableObject {
     
     @Published var routesLoaded:Bool = false
     
-    init(baseURL: String) {
+    init(baseURL: String, debugResponseProvider: DebugResponseProvider?) {
         self.baseURL = baseURL
+        super.init()
+        self.debugResponseProvider = debugResponseProvider
     }
     
     func loadRoutes() -> Future<RouterClientModel, Error> {
@@ -62,12 +72,12 @@ final class RouterClient: NetworkClient, ObservableObject {
         return future
     }
     
-    func route<S>(named: String, pathSubstitutions: [String: String] = [:], querySubstitutions: [String: String] = [:]) -> Future<S,Error> where S: Decodable {
-        guard let route = self.routes[named] else {
+    func route<S>(request: RouteRequest) -> Future<S,Error> where S: Decodable {
+        guard let route = self.routes[request.name] else {
             return Future.reject(RouterError.missingRoute)
         }
         var path = route.path
-        for (key, value) in pathSubstitutions {
+        for (key, value) in request.pathSubstitutions {
             let lookup = "{\(key)}"
             if !path.contains(lookup) {
                 return Future.reject(RouterError.missingPathParam)
@@ -76,7 +86,7 @@ final class RouterClient: NetworkClient, ObservableObject {
         }
         
         var queryStrings: [String] = []
-        for (key, value) in querySubstitutions {
+        for (key, value) in request.querySubstitutions {
             if route.queryParams?[key] == nil {
                 return Future.reject(RouterError.missingQueryParam)
             }
@@ -89,9 +99,17 @@ final class RouterClient: NetworkClient, ObservableObject {
         guard let url = URL(string: urlString) else {
             return Future.reject(RouterError.invalidURL)
         }
-        var urlRequest = URLRequest(url: url)
-        urlRequest.httpMethod = route.method
-        return execute(request: urlRequest)
+        var appRequest = AppRequest(url: url)
+        appRequest.urlRequest.httpMethod = route.method
+        appRequest.stubPath = request.stubPath
+        return execute(appRequest: appRequest)
+    }
+    
+    func route<S>(named: String, pathSubstitutions: [String: String] = [:], querySubstitutions: [String: String] = [:]) -> Future<S,Error> where S: Decodable {
+        var routeRequest = RouteRequest(name: named)
+        routeRequest.pathSubstitutions = pathSubstitutions
+        routeRequest.querySubstitutions = querySubstitutions
+        return route(request: routeRequest)
     }
     
     

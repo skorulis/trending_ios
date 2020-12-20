@@ -17,6 +17,9 @@
 		FA3C49C92587285E00A6D625 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49C82587285E00A6D625 /* Analytics.swift */; };
 		FA3C49D1258729B400A6D625 /* Analytics+Trends.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */; };
 		FA3C49E82587526000A6D625 /* AmplitudeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */; };
+		FA3C4A21258F2CC900A6D625 /* DebugResponseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A20258F2CC900A6D625 /* DebugResponseProvider.swift */; };
+		FA3C4A26258F2D6900A6D625 /* AppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A25258F2D6900A6D625 /* AppRequest.swift */; };
+		FA3C4A2B258FFFD200A6D625 /* Stubs in Resources */ = {isa = PBXBuildFile; fileRef = FA3C4A2A258FFFD200A6D625 /* Stubs */; };
 		FAB993A8257B5DC0008D2EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */; };
 		FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */; };
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
@@ -72,6 +75,9 @@
 		FA3C49C82587285E00A6D625 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Analytics+Trends.swift"; sourceTree = "<group>"; };
 		FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeLogger.swift; sourceTree = "<group>"; };
+		FA3C4A20258F2CC900A6D625 /* DebugResponseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugResponseProvider.swift; sourceTree = "<group>"; };
+		FA3C4A25258F2D6900A6D625 /* AppRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRequest.swift; sourceTree = "<group>"; };
+		FA3C4A2A258FFFD200A6D625 /* Stubs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stubs; path = Trending/Stubs; sourceTree = "<group>"; };
 		FAB993A0257B5DBE008D2EE6 /* Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 		FAB99397257B5DBE008D2EE6 = {
 			isa = PBXGroup;
 			children = (
+				FA3C4A2A258FFFD200A6D625 /* Stubs */,
 				FAB993A2257B5DBE008D2EE6 /* Trending */,
 				FAB993B4257B5DC0008D2EE6 /* TrendingTests */,
 				FAB993BF257B5DC1008D2EE6 /* TrendingUITests */,
@@ -254,6 +261,8 @@
 				FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */,
 				FAB99431257C78DD008D2EE6 /* RouterClient.swift */,
 				FAB99436257C78EC008D2EE6 /* BasicClient.swift */,
+				FA3C4A20258F2CC900A6D625 /* DebugResponseProvider.swift */,
+				FA3C4A25258F2D6900A6D625 /* AppRequest.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -426,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3C4A2B258FFFD200A6D625 /* Stubs in Resources */,
 				FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */,
 				FAB993A8257B5DC0008D2EE6 /* Assets.xcassets in Resources */,
 			);
@@ -568,12 +578,14 @@
 				FA3C49B4258707E800A6D625 /* BehaviourProtocol.swift in Sources */,
 				FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */,
 				FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */,
+				FA3C4A26258F2D6900A6D625 /* AppRequest.swift in Sources */,
 				FA3C49BE2587085600A6D625 /* ErrorDisplayBehaviour.swift in Sources */,
 				FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */,
 				FAFAEDDD257D789C00B53DDC /* PlaceListView.swift in Sources */,
 				FAC1C1A8258426A10020BAA4 /* ErrorHandler.swift in Sources */,
 				FA3C49D1258729B400A6D625 /* Analytics+Trends.swift in Sources */,
 				FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */,
+				FA3C4A21258F2CC900A6D625 /* DebugResponseProvider.swift in Sources */,
 				FAB99403257B8837008D2EE6 /* TrendDetail.swift in Sources */,
 				FA3C49C32587193300A6D625 /* BehaviourContainer.swift in Sources */,
 				FA3C49E82587526000A6D625 /* AmplitudeLogger.swift in Sources */,

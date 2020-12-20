@@ -74,7 +74,9 @@ struct TrendingClient: ServiceType {
     }
     
     func getPlaces() -> Future<[Place], Error> {
-        return network.route(named: "places")
+        var request = RouteRequest(name: "places")
+        request.stubPath = "Stubs/place/get_places.json"
+        return network.route(request: request)
     }
     
 }

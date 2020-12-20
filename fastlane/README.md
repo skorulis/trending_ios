@@ -20,6 +20,11 @@ or alternatively using `brew install fastlane`
 ```
 fastlane ios beta
 ```
+Build and upload beta
+### ios build_beta
+```
+fastlane ios build_beta
+```
 Description of what the lane does
 ### ios upload_beta
 ```

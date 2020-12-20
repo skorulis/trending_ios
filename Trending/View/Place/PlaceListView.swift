@@ -66,3 +66,9 @@ struct PlaceListView: View {
         .navigationTitle("Places")
     }
 }
+
+struct PlaceListView_Previews: PreviewProvider {
+    static var previews: some View {
+        PlaceListView(locator: Servicelocator.preview)
+    }
+}
