@@ -29,7 +29,8 @@ struct ContentView: View {
                 }.tabItem { Text("Places") }
             }
         } else {
-            Text("Loading routes").modifier(viewModel.errorBehaviour.modifier)
+            Text("Loading routes")
+                .modifier(viewModel.errorBehaviour.modifier)
         }
     }
 }

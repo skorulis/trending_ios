@@ -102,6 +102,7 @@ struct ErrorEmittingViewModifier: ViewModifier {
             in: content,
             retryHandler: retryHandler
         )
+        .eraseToAnyView()
     }
 }
 

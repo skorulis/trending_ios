@@ -36,5 +36,6 @@ struct ScreenViewModifier: ViewModifier {
         return content.onAppear(perform: {
             tag.track()
         })
+        .eraseToAnyView()
     }
 }

@@ -14,6 +14,9 @@ struct TrendDetail: View {
     let trend: TrendItem
     let seconds: TimeInterval
     @ObservedObject private var viewModel: ViewModel
+    #if DEBUG
+    @ObservedObject var iO = injectionObserver
+    #endif
     
     init(trend: TrendItem, seconds: TimeInterval, locator: Servicelocator) {
         self.trend = trend
@@ -24,11 +27,15 @@ struct TrendDetail: View {
     var body: some View {
         VStack {
             TrendChartView(data: viewModel.details?.history ?? [])
+            Button("Tweets") {
+                
+            }
         }.emittingError(viewModel.error, retryHandler: {
             viewModel.load()
         })
         .modifier(ScreenViewModifier(tag: Analytics.Trends.viewDetail))
         .navigationBarTitle(trend.display)
+        .eraseToAnyView()
     }
     
 }

@@ -24,7 +24,7 @@ struct TrendChartView: UIViewRepresentable {
     
 }
 
-class TrendChart: LineChartView, ChartViewDelegate {
+class TrendChart: LineChartView, ChartViewDelegate, IValueFormatter {
     
     var dataPoints:[TwitterDataPoint] = [] {
         didSet {
@@ -37,6 +37,7 @@ class TrendChart: LineChartView, ChartViewDelegate {
         self.delegate = self
         rightAxis.enabled = false
         dragEnabled = false
+        legend.enabled = false
         isUserInteractionEnabled = false
         
         xAxis.drawLabelsEnabled = false
@@ -51,7 +52,8 @@ class TrendChart: LineChartView, ChartViewDelegate {
         let points = dataPoints.map { ChartDataEntry(x: $0.createdAt, y: Double($0.value)) }
         let line = LineChartDataSet(entries: points)
         line.circleRadius = 0
-        line.colors = [NSUIColor.black]
+        line.colors = [NSUIColor.red]
+        line.valueFormatter = self
         
         self.data = LineChartData(dataSet: line)
     }
@@ -65,5 +67,11 @@ class TrendChart: LineChartView, ChartViewDelegate {
     }
     
     //MARK: ChartViewDelegate
+    
+    //MARK: IValueFormatter
+    
+    func stringForValue(_ value: Double, entry: ChartDataEntry, dataSetIndex: Int, viewPortHandler: ViewPortHandler?) -> String {
+        return ""
+    }
     
 }

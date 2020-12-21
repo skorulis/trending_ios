@@ -14,6 +14,7 @@ struct TrendRow: View {
     
     var body: some View {
         Text(model.display)
+        .eraseToAnyView()
     }
 }
 

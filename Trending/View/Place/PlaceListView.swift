@@ -62,6 +62,9 @@ struct PlaceListView: View {
                 }
             }
         }
+        .gesture(DragGesture().onChanged({ (_) in
+            self.hideKeyboard()
+        }))
         .modifier(ScreenViewModifier(tag: Analytics.Places.list))
         .navigationTitle("Places")
     }
