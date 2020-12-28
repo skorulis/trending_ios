@@ -28,7 +28,7 @@ struct TrendDetail: View {
         VStack {
             TrendChartView(data: viewModel.details?.history ?? [])
             Button("Tweets") {
-                
+                self.showTweets()
             }
         }.emittingError(viewModel.error, retryHandler: {
             viewModel.load()
@@ -36,6 +36,20 @@ struct TrendDetail: View {
         .modifier(ScreenViewModifier(tag: Analytics.Trends.viewDetail))
         .navigationBarTitle(trend.display)
         .eraseToAnyView()
+    }
+    
+    private func showTweets() {
+        var components = URLComponents(string: "https://twitter.com/search")
+        components?.queryItems = [URLQueryItem(name: "src", value: "recent_search_click"),
+                                  URLQueryItem(name: "q", value: trend.key),
+                                  URLQueryItem(name: "f", value: "live")
+        ]
+        
+        guard let url = components?.url else {
+            return
+        }
+        
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
 }

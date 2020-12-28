@@ -27,6 +27,9 @@ struct ContentView: View {
                 NavigationView {
                     PlaceListView(locator: self.locator)
                 }.tabItem { Text("Places") }
+                NavigationView {
+                    DebugSettingsView(locator: self.locator)
+                }.tabItem { Text("Debug") }
             }
         } else {
             Text("Loading routes")

@@ -22,6 +22,7 @@
 		FA3C4A2B258FFFD200A6D625 /* Stubs in Resources */ = {isa = PBXBuildFile; fileRef = FA3C4A2A258FFFD200A6D625 /* Stubs */; };
 		FA3C4A3625901D7800A6D625 /* SwiftUI+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A3525901D7800A6D625 /* SwiftUI+Helpers.swift */; };
 		FA3C4A442590264600A6D625 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A432590264600A6D625 /* Injection.swift */; };
+		FA4E8252259A834C00A301C9 /* DebugSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E8251259A834C00A301C9 /* DebugSettingsView.swift */; };
 		FAB993A8257B5DC0008D2EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */; };
 		FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */; };
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
@@ -82,6 +83,7 @@
 		FA3C4A2A258FFFD200A6D625 /* Stubs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stubs; path = Trending/Stubs; sourceTree = "<group>"; };
 		FA3C4A3525901D7800A6D625 /* SwiftUI+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Helpers.swift"; sourceTree = "<group>"; };
 		FA3C4A432590264600A6D625 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		FA4E8251259A834C00A301C9 /* DebugSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSettingsView.swift; sourceTree = "<group>"; };
 		FAB993A0257B5DBE008D2EE6 /* Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -189,6 +191,14 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		FA4E8250259A833E00A301C9 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E8251259A834C00A301C9 /* DebugSettingsView.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 		FAB99397257B5DBE008D2EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +268,7 @@
 		FAB993D1257B5F2D008D2EE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA4E8250259A833E00A301C9 /* Debug */,
 				FA3C4A3425901D6F00A6D625 /* Util */,
 				FAFAEDE5257D78EC00B53DDC /* Main */,
 				FAFAEDDB257D789300B53DDC /* Place */,
@@ -587,6 +598,7 @@
 				FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */,
 				FA3C49B9258707F100A6D625 /* ScreenViewBehaviour.swift in Sources */,
 				FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */,
+				FA4E8252259A834C00A301C9 /* DebugSettingsView.swift in Sources */,
 				FAC1C1A025834C6B0020BAA4 /* SearchBar.swift in Sources */,
 				FA3C49C92587285E00A6D625 /* Analytics.swift in Sources */,
 				FA3C49B4258707E800A6D625 /* BehaviourProtocol.swift in Sources */,
@@ -643,15 +655,6 @@
 		FAB993C3257B5DC1008D2EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-                OTHER_LDFLAGS = (
-                    "-Xlinker",
-                    "-interposable",
-                    "-Xlinker",
-                    "-undefined",
-                    "-Xlinker",
-                    dynamic_lookup,
-                );
-                ENABLE_BITCODE = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -685,6 +688,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 13;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -705,6 +709,14 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+					"-Xlinker",
+					"-undefined",
+					"-Xlinker",
+					dynamic_lookup,
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -771,27 +783,27 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E7EF62F9FA36927FD750CA4 /* Pods-Trending.debug.xcconfig */;
 			buildSettings = {
-                OTHER_LDFLAGS = (
-                    "-Xlinker",
-                    "-interposable",
-                    "-Xlinker",
-                    "-undefined",
-                    "-Xlinker",
-                    dynamic_lookup,
-                );
-                ENABLE_BITCODE = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Trending/Preview Content\"";
 				DEVELOPMENT_TEAM = X4S6MUZL2D;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Trending/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+					"-Xlinker",
+					"-undefined",
+					"-Xlinker",
+					dynamic_lookup,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skorulis.Trending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -830,25 +842,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B38141346C1DB2071782856 /* Pods-TrendingTests.debug.xcconfig */;
 			buildSettings = {
-                OTHER_LDFLAGS = (
-                    "-Xlinker",
-                    "-interposable",
-                    "-Xlinker",
-                    "-undefined",
-                    "-Xlinker",
-                    dynamic_lookup,
-                );
-                ENABLE_BITCODE = NO;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4S6MUZL2D;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TrendingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+					"-Xlinker",
+					"-undefined",
+					"-Xlinker",
+					dynamic_lookup,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skorulis.TrendingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -885,23 +897,23 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C2CD87CA7296D565F6D741D /* Pods-Trending-TrendingUITests.debug.xcconfig */;
 			buildSettings = {
-                OTHER_LDFLAGS = (
-                    "-Xlinker",
-                    "-interposable",
-                    "-Xlinker",
-                    "-undefined",
-                    "-Xlinker",
-                    dynamic_lookup,
-                );
-                ENABLE_BITCODE = NO;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4S6MUZL2D;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TrendingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+					"-Xlinker",
+					"-undefined",
+					"-Xlinker",
+					dynamic_lookup,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skorulis.TrendingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
