@@ -3,6 +3,7 @@
 
 import Foundation
 import Swinject
+import ASNetworking
 
 protocol ServiceType {
     static func make(_ resolver: Resolver) -> Self
@@ -41,7 +42,6 @@ class Servicelocator: ObservableObject {
         container.register(NetworkClient.self) { (resolver) -> NetworkClient in
             return RouterClient(baseURL: "http://localhost:7000/", debugResponseProvider: resolver.resolve(DebugResponseProvider.self))
         }.implements(RouterClient.self).inObjectScope(.container)
-        container.register(BasicClient.self)
         container.register(TrendingClient.self)
         
     }

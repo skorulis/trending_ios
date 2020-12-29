@@ -10,6 +10,8 @@ target 'Trending' do
   pod 'Swinject'
   pod 'Amplitude-iOS', '~> 4.9.3'
   pod 'AppCenter'
+  #pod 'ASNetworking', :git => 'git@github.com:skorulis/ASNetworking.git'
+  pod 'ASNetworking', :path => '~/dev/ios/ASNetworking'
 
   target 'TrendingTests' do
     inherit! :search_paths

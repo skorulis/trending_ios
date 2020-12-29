@@ -18,7 +18,6 @@
 		FA3C49D1258729B400A6D625 /* Analytics+Trends.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */; };
 		FA3C49E82587526000A6D625 /* AmplitudeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */; };
 		FA3C4A21258F2CC900A6D625 /* DebugResponseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A20258F2CC900A6D625 /* DebugResponseProvider.swift */; };
-		FA3C4A26258F2D6900A6D625 /* AppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A25258F2D6900A6D625 /* AppRequest.swift */; };
 		FA3C4A2B258FFFD200A6D625 /* Stubs in Resources */ = {isa = PBXBuildFile; fileRef = FA3C4A2A258FFFD200A6D625 /* Stubs */; };
 		FA3C4A3625901D7800A6D625 /* SwiftUI+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A3525901D7800A6D625 /* SwiftUI+Helpers.swift */; };
 		FA3C4A442590264600A6D625 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A432590264600A6D625 /* Injection.swift */; };
@@ -31,10 +30,8 @@
 		FAB99403257B8837008D2EE6 /* TrendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99402257B8837008D2EE6 /* TrendDetail.swift */; };
 		FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9940A257B884D008D2EE6 /* TrendChartView.swift */; };
 		FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */; };
-		FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */; };
 		FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */; };
 		FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99431257C78DD008D2EE6 /* RouterClient.swift */; };
-		FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99436257C78EC008D2EE6 /* BasicClient.swift */; };
 		FAC1C1A025834C6B0020BAA4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1C19F25834C6B0020BAA4 /* SearchBar.swift */; };
 		FAC1C1A8258426A10020BAA4 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1C1A7258426A10020BAA4 /* ErrorHandler.swift */; };
 		FAFAEDD3257CBCA700B53DDC /* TrendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAEDD1257CBCA700B53DDC /* TrendList.swift */; };
@@ -79,7 +76,6 @@
 		FA3C49D0258729B400A6D625 /* Analytics+Trends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Analytics+Trends.swift"; sourceTree = "<group>"; };
 		FA3C49E72587526000A6D625 /* AmplitudeLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeLogger.swift; sourceTree = "<group>"; };
 		FA3C4A20258F2CC900A6D625 /* DebugResponseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugResponseProvider.swift; sourceTree = "<group>"; };
-		FA3C4A25258F2D6900A6D625 /* AppRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRequest.swift; sourceTree = "<group>"; };
 		FA3C4A2A258FFFD200A6D625 /* Stubs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stubs; path = Trending/Stubs; sourceTree = "<group>"; };
 		FA3C4A3525901D7800A6D625 /* SwiftUI+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Helpers.swift"; sourceTree = "<group>"; };
 		FA3C4A432590264600A6D625 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
@@ -98,10 +94,8 @@
 		FAB99402257B8837008D2EE6 /* TrendDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendDetail.swift; sourceTree = "<group>"; };
 		FAB9940A257B884D008D2EE6 /* TrendChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChartView.swift; sourceTree = "<group>"; };
 		FAB99413257C4314008D2EE6 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
-		FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		FAB99426257C5DC4008D2EE6 /* Servicelocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicelocator.swift; sourceTree = "<group>"; };
 		FAB99431257C78DD008D2EE6 /* RouterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterClient.swift; sourceTree = "<group>"; };
-		FAB99436257C78EC008D2EE6 /* BasicClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicClient.swift; sourceTree = "<group>"; };
 		FAC1C19F25834C6B0020BAA4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		FAC1C1A7258426A10020BAA4 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		FAFAEDD1257CBCA700B53DDC /* TrendList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendList.swift; sourceTree = "<group>"; };
@@ -282,11 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				FAB993D3257B5F4C008D2EE6 /* TrendingClient.swift */,
-				FAB99418257C5AD6008D2EE6 /* NetworkClient.swift */,
 				FAB99431257C78DD008D2EE6 /* RouterClient.swift */,
-				FAB99436257C78EC008D2EE6 /* BasicClient.swift */,
 				FA3C4A20258F2CC900A6D625 /* DebugResponseProvider.swift */,
-				FA3C4A25258F2D6900A6D625 /* AppRequest.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -360,6 +351,7 @@
 			buildConfigurationList = FAB993C5257B5DC1008D2EE6 /* Build configuration list for PBXNativeTarget "Trending" */;
 			buildPhases = (
 				BEF79E0E048C4A3CDC15325B /* [CP] Check Pods Manifest.lock */,
+				43256CB52A420396EFDD6B4B /* [CP] Prepare Artifacts */,
 				FAB9939C257B5DBE008D2EE6 /* Sources */,
 				FAB9939D257B5DBE008D2EE6 /* Frameworks */,
 				FAB9939E257B5DBE008D2EE6 /* Resources */,
@@ -398,6 +390,7 @@
 			buildConfigurationList = FAB993CB257B5DC1008D2EE6 /* Build configuration list for PBXNativeTarget "TrendingUITests" */;
 			buildPhases = (
 				0BD1C7D3E17950D83D426499 /* [CP] Check Pods Manifest.lock */,
+				DEFA1620C4124023977991F6 /* [CP] Prepare Artifacts */,
 				FAB993B8257B5DC0008D2EE6 /* Sources */,
 				FAB993B9257B5DC0008D2EE6 /* Frameworks */,
 				FAB993BA257B5DC0008D2EE6 /* Resources */,
@@ -522,6 +515,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trending/Pods-Trending-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		43256CB52A420396EFDD6B4B /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trending/Pods-Trending-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trending/Pods-Trending-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trending/Pods-Trending-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		76482B4EEEAAEF07884BA1C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -583,6 +593,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DEFA1620C4124023977991F6 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trending-TrendingUITests/Pods-Trending-TrendingUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trending-TrendingUITests/Pods-Trending-TrendingUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trending-TrendingUITests/Pods-Trending-TrendingUITests-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -595,7 +622,6 @@
 				FAB993D4257B5F4C008D2EE6 /* TrendingClient.swift in Sources */,
 				FAFAEDE8257D78EC00B53DDC /* ContentView.swift in Sources */,
 				FAFAEDD4257CBCA700B53DDC /* TrendRow.swift in Sources */,
-				FAB99437257C78EC008D2EE6 /* BasicClient.swift in Sources */,
 				FA3C49B9258707F100A6D625 /* ScreenViewBehaviour.swift in Sources */,
 				FAB99432257C78DD008D2EE6 /* RouterClient.swift in Sources */,
 				FA4E8252259A834C00A301C9 /* DebugSettingsView.swift in Sources */,
@@ -603,9 +629,7 @@
 				FA3C49C92587285E00A6D625 /* Analytics.swift in Sources */,
 				FA3C49B4258707E800A6D625 /* BehaviourProtocol.swift in Sources */,
 				FAB99427257C5DC4008D2EE6 /* Servicelocator.swift in Sources */,
-				FAB99419257C5AD6008D2EE6 /* NetworkClient.swift in Sources */,
 				FA3C4A442590264600A6D625 /* Injection.swift in Sources */,
-				FA3C4A26258F2D6900A6D625 /* AppRequest.swift in Sources */,
 				FA3C49BE2587085600A6D625 /* ErrorDisplayBehaviour.swift in Sources */,
 				FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */,
 				FAFAEDDD257D789C00B53DDC /* PlaceListView.swift in Sources */,

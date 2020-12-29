@@ -42,10 +42,6 @@ struct TrendDetails: Decodable {
     
 }
 
-enum NetworkError: Error {
-    case serverError
-}
-
 struct Place: Decodable, Identifiable {
     let id: Int32
     let name: String

@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 import Swinject
+import ASNetworking
 
 struct RouteModel: Decodable {
     let path: String
