@@ -11,14 +11,16 @@ protocol ServiceType {
 
 extension Container {
     
-    func register<S>(_ type: S.Type = S.self) where S: ServiceType {
-        register(S.self) { (resolver) -> S in
+    @discardableResult
+    func register<S>(_ type: S.Type = S.self) -> ServiceEntry<S> where S: ServiceType {
+        return register(S.self) { (resolver) -> S in
             return S.make(resolver)
         }
     }
     
-    func register<S, T>(_ type: S.Type = S.self, as baseType: T.Type) where S: ServiceType {
-        register(baseType) { (resolver) -> T in
+    @discardableResult
+    func register<S, T>(_ type: S.Type = S.self, as baseType: T.Type) -> ServiceEntry<T> where S: ServiceType {
+        return register(baseType) { (resolver) -> T in
             //Runtime safety check
             return S.make(resolver) as! T
         }
@@ -39,11 +41,10 @@ class Servicelocator: ObservableObject {
     
     init() {
         container.register(EmptyDebugResponseProvider.self, as: DebugResponseProvider.self)
-        container.register(NetworkClient.self) { (resolver) -> NetworkClient in
-            return RouterClient(baseURL: "http://localhost:7000/", debugResponseProvider: resolver.resolve(DebugResponseProvider.self))
-        }.implements(RouterClient.self).inObjectScope(.container)
-        container.register(TrendingClient.self)
+        container.register(DebugConfigService.self, as: ConfigService.self)
         
+        container.register(RouterClient.self).inObjectScope(.container)
+        container.register(TrendingClient.self)
     }
     
     func resolve<S>(_ type: S.Type = S.self) -> S? {

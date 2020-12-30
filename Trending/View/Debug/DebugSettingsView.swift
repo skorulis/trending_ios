@@ -7,7 +7,7 @@ class DebugSettingsViewModel: ObservableObject {
     
     @Published var networkSource: Int = 0 {
         didSet {
-            
+            UserDefaults.standard.setValue(networkSource, forKey: DebugConfigService.kMainURLKey)
         }
     }
     

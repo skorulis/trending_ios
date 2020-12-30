@@ -46,12 +46,17 @@ struct RouteRequest {
     var stubPath: String?
 }
 
-final class RouterClient: NetworkClient, ObservableObject {
+final class RouterClient: NetworkClient, ObservableObject, ServiceType {
     
     let baseURL: String
     private var routes = [String:RouteModel]()
     
     @Published var routesLoaded:Bool = false
+    
+    static func make(_ resolver: Resolver) -> RouterClient {
+        let config = resolver.resolve(ConfigService.self)!
+        return RouterClient(baseURL: config.mainURL, debugResponseProvider: resolver.resolve(DebugResponseProvider.self))
+    }
     
     init(baseURL: String, debugResponseProvider: DebugResponseProvider?) {
         self.baseURL = baseURL
