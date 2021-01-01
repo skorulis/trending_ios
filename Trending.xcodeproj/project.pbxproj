@@ -23,6 +23,7 @@
 		FA3C4A442590264600A6D625 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C4A432590264600A6D625 /* Injection.swift */; };
 		FA4E8252259A834C00A301C9 /* DebugSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E8251259A834C00A301C9 /* DebugSettingsView.swift */; };
 		FA4E8371259BDBC700A301C9 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E8370259BDBC700A301C9 /* ConfigService.swift */; };
+		FA4E8376259C7F6F00A301C9 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E8375259C7F6F00A301C9 /* LoadingIndicator.swift */; };
 		FAB993A8257B5DC0008D2EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */; };
 		FAB993AB257B5DC0008D2EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */; };
 		FAB993B6257B5DC0008D2EE6 /* TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB993B5257B5DC0008D2EE6 /* TrendingTests.swift */; };
@@ -82,6 +83,7 @@
 		FA3C4A432590264600A6D625 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 		FA4E8251259A834C00A301C9 /* DebugSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSettingsView.swift; sourceTree = "<group>"; };
 		FA4E8370259BDBC700A301C9 /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		FA4E8375259C7F6F00A301C9 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		FAB993A0257B5DBE008D2EE6 /* Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB993A7257B5DC0008D2EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB993AA257B5DC0008D2EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 			children = (
 				FAFAEDD1257CBCA700B53DDC /* TrendList.swift */,
 				FAFAEDD2257CBCA700B53DDC /* TrendRow.swift */,
+				FA4E8375259C7F6F00A301C9 /* LoadingIndicator.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -638,6 +641,7 @@
 				FAB9940B257B884D008D2EE6 /* TrendChartView.swift in Sources */,
 				FAFAEDDD257D789C00B53DDC /* PlaceListView.swift in Sources */,
 				FAC1C1A8258426A10020BAA4 /* ErrorHandler.swift in Sources */,
+				FA4E8376259C7F6F00A301C9 /* LoadingIndicator.swift in Sources */,
 				FA3C49D1258729B400A6D625 /* Analytics+Trends.swift in Sources */,
 				FAB99414257C4314008D2EE6 /* NavigationLazyView.swift in Sources */,
 				FA3C4A21258F2CC900A6D625 /* DebugResponseProvider.swift in Sources */,

@@ -26,7 +26,7 @@ struct TrendDetail: View {
     
     var body: some View {
         VStack {
-            TrendChartView(data: viewModel.details?.history ?? [])
+            TrendChartView(data: viewModel.details?.twitterHistory ?? [])
             Button("Tweets") {
                 self.showTweets()
             }

@@ -20,6 +20,13 @@ struct TrendItem: Decodable, Hashable, Identifiable {
     }
 }
 
+struct TopTrendsResponse: Decodable {
+    
+    let twitter:[TrendItem]
+    let google:[TrendItem]
+    
+}
+
 struct IdItem<T>: Decodable, Identifiable where T: Decodable, T: Hashable {
     let id: T
 }
@@ -38,7 +45,8 @@ struct TwitterDataPoint: Decodable, Identifiable {
 
 struct TrendDetails: Decodable {
     let trend: TrendItem
-    let history: [TwitterDataPoint]
+    let twitterHistory: [TwitterDataPoint]
+    let googleHistory: [TwitterDataPoint]
     
 }
 
@@ -56,7 +64,7 @@ struct TrendingClient: ServiceType {
         return TrendingClient(network: resolver.resolve(RouterClient.self)!)
     }
     
-    func getTop(seconds: TimeInterval, placeId: Int32?) -> Future<[TrendItem],Error> {
+    func getTop(seconds: TimeInterval, placeId: Int32?) -> Future<TopTrendsResponse,Error> {
         var queryParams = ["seconds":"\(seconds)"]
         if let placeId = placeId {
             queryParams["placeId"] = "\(placeId)"

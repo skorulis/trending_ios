@@ -12,13 +12,15 @@ import Swinject
 
 private class TrendListViewModel: ObservableObject {
     
-    @Published var trends = [TrendItem]()
+    @Published var twitterTrends = [TrendItem]()
+    @Published var googleTrends = [TrendItem]()
     @Published var timeIndex: Int = 0 {
         didSet {
             print("SEt value")
             getTrends()
         }
     }
+    var isLoading: Bool = false
     
     var seconds: TimeInterval {
         switch timeIndex {
@@ -44,11 +46,16 @@ private class TrendListViewModel: ObservableObject {
     }
     
     func getTrends() {
-        client.getTop(seconds: seconds, placeId: place?.id).sink { (error) in
+        subscribers.removeAll() //Cancel any outstanding
+        isLoading = true
+        client.getTop(seconds: seconds, placeId: place?.id).sink { [weak self] (error) in
             //print("Handle error \(error)")
+            self?.isLoading = false
         } receiveValue: { (trends) in
-            self.trends = trends
+            self.twitterTrends = trends.twitter
+            self.googleTrends = trends.google
         }.store(in: &subscribers)
+        
     }
     
 }
@@ -56,6 +63,9 @@ private class TrendListViewModel: ObservableObject {
 struct TrendList: View {
     
     @ObservedObject private var viewModel: TrendListViewModel
+    #if DEBUG
+    @ObservedObject var iO = injectionObserver
+    #endif
     
     private let locator: Servicelocator
     private let place: Place?
@@ -82,10 +92,23 @@ struct TrendList: View {
         }
         
         return List {
-            Section(header: header) {
-                ForEach(viewModel.trends, id: \.self) { trend in
-                    return NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, seconds: viewModel.seconds, locator: locator))) {
-                        TrendRow(model: trend)
+            Section(header: header) { }
+                        
+            if viewModel.isLoading {
+                LoadingIndicator()
+            } else {
+                Section(header: Text("Twitter")) {
+                    ForEach(viewModel.twitterTrends, id: \.self) { trend in
+                        return NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, seconds: viewModel.seconds, locator: locator))) {
+                            TrendRow(model: trend)
+                        }
+                    }
+                }
+                Section(header: Text("Google")) {
+                    ForEach(viewModel.googleTrends, id: \.self) { trend in
+                        return NavigationLink(destination: NavigationLazyView(TrendDetail(trend: trend, seconds: viewModel.seconds, locator: locator))) {
+                            TrendRow(model: trend)
+                        }
                     }
                 }
             }
